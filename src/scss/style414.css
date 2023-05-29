@@ -10,4 +10,71 @@ h2 {
   line-height: 27px;
   font-weight: bold;
   text-transform: uppercase;
+}
+
+.header {
+  width: 374px;
+  height: 625px;
+  padding: 27px 20px 200px;
+}
+
+.container {
+  width: 374px;
+  margin: 0;
+}
+
+.menu {
+  flex-direction: column;
+  align-items: start;
+  gap: 17px;
+}
+
+.nav {
+  flex-direction: column;
+  align-items: start;
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
+.logo {
+  width: 100%;
+  height: 24px;
+  gap: 4%;
+}
+
+.search {
+  width: 374px;
+  box-sizing: border-box;
+  padding-left: 10px;
+  padding-right: 0;
+}
+
+.title_p {
+  top: 16px;
+}
+
+.page-description {
+  margin-top: 199px;
+  text-align: center;
+}
+
+.form {
+  flex-direction: column;
+  align-items: center;
+  top: 32px;
+}
+
+.input_name,
+.input_email,
+.submit {
+  width: 374px;
+  box-sizing: border-box;
+}
+
+.submit {
+  padding: 0;
+  margin: 0;
+  min-width: 374px;
+  text-align: center;
 }/*# sourceMappingURL=style414.css.map */
