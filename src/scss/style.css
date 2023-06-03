@@ -125,8 +125,7 @@ h2 {
   font-size: 16px;
 }
 
-.input_name,
-.input_email {
+.input {
   min-width: 273px;
   min-height: 50px;
   padding-left: 20px;
@@ -136,14 +135,13 @@ h2 {
   background: transparent;
 }
 
-.input_name::-moz-placeholder, .input_email::-moz-placeholder {
+.input::-moz-placeholder {
   color: #ffffff;
   font-family: "Roboto-Bold";
   font-size: 14px;
 }
 
-.input_name::placeholder,
-.input_email::placeholder {
+.input::placeholder {
   color: #ffffff;
   font-family: "Roboto-Bold";
   font-size: 14px;

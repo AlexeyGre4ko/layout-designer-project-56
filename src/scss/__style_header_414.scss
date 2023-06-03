@@ -43,13 +43,12 @@
     align-items: center;
     top: 32px;
 }
-.input_name,
-.input_email,
-.submit {
+.input {
     width: 374px;
     box-sizing: border-box;
 }
 .submit {
+    @extend .input;
     padding: 0;
     margin: 0;
     min-width: 374px;

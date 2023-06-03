@@ -32,7 +32,7 @@ body {
     flex-grow: 0.2;
     width: 25px;
     align-items: center;
-    color: #FFFFFF;
+    color: $font-color;
 }
 .nav {
     display: flex;
@@ -41,22 +41,22 @@ body {
 }
 .nav-list {
     flex-grow: 0.9;
-    color: #CACACA;
+    color: $font-nav;
 }
 .search {
     width: 248px;
     height: 25px;
-    background-color: #3C3B3D;
+    background-color: $bg-search;
     border-radius: 50px;
     padding: 5px 180px 5px 10px;
-    color: #757575;
+    color: $font-color-dark;
     font-size: 13.3px;
     font-family: 'Arial';
     text-transform: uppercase;
 }
 .page-description {
     margin-top: 150px;
-    color: #FFFFFF;
+    color: $font-color;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -75,28 +75,26 @@ body {
     top: 31px;
     font-size: 16px;
 }
-.input_name,
-.input_email {
+.input {
     min-width: 273px;
     min-height: 50px;
     padding-left: 20px;
-    border: solid 2px #cacaca;
+    border: solid 2px $font-nav;
     border-radius: 3px;
     box-sizing: border-box;
     background: transparent;
 }
-.input_name::placeholder,
-.input_email::placeholder {
-    color: #ffffff;
+.input::placeholder {
+    color: $font-color;
     font-family: 'Roboto-Bold';
     font-size: 14px;
 }
 .submit {
     min-width: 570px;
     min-height: 57px;
-    background-color: #34C176;
+    background-color: $bg-submit;
     border-radius: 5px;
-    color: #ffffff;
+    color: $font-color;
     text-transform: uppercase;
     padding: 21px 220px;
     box-sizing: border-box;
