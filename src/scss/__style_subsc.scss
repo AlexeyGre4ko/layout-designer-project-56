@@ -1,0 +1,16 @@
+.free {
+    background-image: url("/src/images/subscribe_1.png");
+    width: 200px;
+    height: 200px;
+}
+.standart {
+    background-image: url("/src/images/subscribe_2.png");
+}
+.premium {
+    background-image: url("/src/images/subscribe_3.png");
+}
+.subscription {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

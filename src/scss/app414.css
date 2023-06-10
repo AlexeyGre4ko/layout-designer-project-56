@@ -65,8 +65,7 @@ h2 {
   top: 32px;
 }
 
-.input,
-.submit {
+.input, .submit {
   width: 374px;
   box-sizing: border-box;
 }
@@ -74,6 +73,6 @@ h2 {
 .submit {
   padding: 0;
   margin: 0;
-  text-align: center;
   min-width: 374px;
-}/*# sourceMappingURL=style414.css.map */
+  text-align: center;
+}
