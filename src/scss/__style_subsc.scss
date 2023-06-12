@@ -1,16 +1,105 @@
-.free {
-    background-image: url("/src/images/subscribe_1.png");
-    width: 200px;
-    height: 200px;
-}
-.standart {
-    background-image: url("/src/images/subscribe_2.png");
-}
-.premium {
-    background-image: url("/src/images/subscribe_3.png");
-}
 .subscription {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    h2 {
+        color: $font-color;
+        position: relative;
+        margin: 0;
+        top: 101px;
+    }
+
+    .forms {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        margin: 0;
+        top: 146px;
+
+        .free {
+            background-image: url("/src/images/subscribe_1.png");
+        }
+        .standart {
+            background-image: url("/src/images/subscribe_2.png");
+        }
+        .premium {
+            background-image: url("/src/images/subscribe_3.png");
+        }
+    }
+    .subsc_parag {
+        text-align: center;
+        color: $font-color;
+        position: relative;
+        margin: 0;
+        top: 189px;
+    }
+}
+.form_size {
+    width: 370px;
+    height: 615px;
+    background-size: cover;
+
+    .form_type {
+        font-size: 24px;
+        text-transform: uppercase;
+        color: $font-color;
+        text-align: center;
+    }
+    .price {
+        position: relative;
+        margin: 0;
+        top: 176px;
+        left: 86px;
+        display: flex;
+        gap: 16px;
+
+        @mixin value() {
+            height: 64px;
+            font-size: 64px;
+            color: $font-color;
+            display: flex;
+            align-items: center;
+            justify-content: end;
+        }
+
+        .value_1 {
+            @include value();
+            width: 72px;
+        }
+        .value_2_3 {
+            @include value();
+            width: 108px;
+        }
+
+        .currency {
+            font-size: 32px;
+            color: $font-color;
+            text-transform: uppercase;
+        }
+    }
+    .subscribe {
+        width: 320px;
+        height: 66px;
+        background-color: transparent;
+        border: 1px solid $font-color;
+        color: $font-color;
+        text-transform: uppercase;
+        font-size: 16px;
+        position: relative;
+        top: 216px;
+        left: 22px;
+        border-radius: 5px;
+    }
+    .form_parag {
+        text-align: center;
+        font-size: 12.8px;
+        color: $font-color;
+        width: 319px;
+        position: relative;
+        margin: 0;
+        top: 280px;
+        padding-left: 22px;
+    }
 }

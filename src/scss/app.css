@@ -164,22 +164,138 @@ h2 {
   text-transform: uppercase;
 }
 
-.free {
-  background-image: url("/src/images/subscribe_1.png");
-  width: 200px;
-  height: 200px;
-}
-
-.standart {
-  background-image: url("/src/images/subscribe_2.png");
-}
-
-.premium {
-  background-image: url("/src/images/subscribe_3.png");
-}
-
 .subscription {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.subscription h2 {
+  color: #ffffff;
+  position: relative;
+  margin: 0;
+  top: 101px;
+}
+.subscription .forms {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin: 0;
+  top: 146px;
+}
+.subscription .forms .free {
+  background-image: url("/src/images/subscribe_1.png");
+}
+.subscription .forms .standart {
+  background-image: url("/src/images/subscribe_2.png");
+}
+.subscription .forms .premium {
+  background-image: url("/src/images/subscribe_3.png");
+}
+.subscription .subsc_parag {
+  text-align: center;
+  color: #ffffff;
+  position: relative;
+  margin: 0;
+  top: 189px;
+}
+
+.form_size {
+  width: 370px;
+  height: 615px;
+  background-size: cover;
+}
+.form_size .form_type {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+}
+.form_size .price {
+  position: relative;
+  margin: 0;
+  top: 176px;
+  left: 86px;
+  display: flex;
+  gap: 16px;
+}
+.form_size .price .value_1 {
+  height: 64px;
+  font-size: 64px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  width: 72px;
+}
+.form_size .price .value_2_3 {
+  height: 64px;
+  font-size: 64px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  width: 108px;
+}
+.form_size .price .currency {
+  font-size: 32px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.form_size .subscribe {
+  width: 320px;
+  height: 66px;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 16px;
+  position: relative;
+  top: 216px;
+  left: 22px;
+  border-radius: 5px;
+}
+.form_size .form_parag {
+  text-align: center;
+  font-size: 12.8px;
+  color: #ffffff;
+  width: 319px;
+  position: relative;
+  margin: 0;
+  top: 280px;
+  padding-left: 22px;
+}
+
+.last_news {
+  position: relative;
+  top: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.last_news h2 {
+  color: #ffffff;
+  position: relative;
+  margin: 0;
+  top: 100px;
+}
+.last_news .eminem {
+  position: relative;
+  top: 148px;
+  display: flex;
+}
+.last_news .eminem .photo {
+  width: 575px;
+  height: 286px;
+}
+.last_news .eminem .em {
+  background-image: url("/src/images/Music to Be Murdered By.png");
+}
+.last_news .eminem .oz {
+  background-image: url("/src/images/Ordinary Man.png");
+}
+.last_news .ozzy {
+  position: relative;
+  top: 148px;
+  display: flex;
 }

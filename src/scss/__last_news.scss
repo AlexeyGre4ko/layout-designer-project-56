@@ -1,0 +1,36 @@
+.last_news {
+    position: relative;
+    top: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h2 {
+        color: $font-color;
+        position: relative;
+        margin: 0;
+        top: 100px;
+    }
+
+    .eminem {
+        position: relative;
+        top: 148px;
+        display: flex;
+
+        .photo {
+            width: 575px;
+            height: 286px;
+        }
+        .em {
+            background-image: url("/src/images/Music\ to\ Be\ Murdered\ By.png");
+        }
+        .oz {
+            background-image: url("/src/images/Ordinary\ Man.png");
+        }
+    }
+    .ozzy {
+        position: relative;
+        top: 148px;
+        display: flex;
+    }
+}
