@@ -1,0 +1,38 @@
+.eminem {
+    flex-direction: column;
+
+
+}
+
+.last_news > .ozzy {
+    flex-direction: column;
+    position: relative;
+    top: 297px;
+
+}
+
+.cont {
+    width: 374px;
+    height: 186px;
+    background-size: cover;
+
+}
+
+.album_name {
+    font-size: 16px;
+    color: $font-color;
+}
+
+.album_discr {
+    top: 16px;
+}
+
+.logo_date {
+    top: 32px;
+    font-size: 12.8px;
+}
+
+.to_album {
+    top: 80px;
+    font-size: 12.8px;
+}

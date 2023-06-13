@@ -1,3 +1,21 @@
+@font-face {
+  font-family: Roboto;
+  src: url("/src/fonts/Roboto-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: Arial;
+  src: url("/src/fonts/arialmt.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: Roboto-Bold;
+  src: url("/src/fonts/Roboto-Bold.ttf");
+  font-weight: 700;
+  font-style: bold;
+}
 h1 {
   font-size: 30px;
   line-height: 45px;
@@ -114,4 +132,39 @@ main .container .forms .form_size .form_parag {
 }
 main .container .subsc_parag {
   top: 169px;
+}
+
+.eminem {
+  flex-direction: column;
+}
+
+.last_news > .ozzy {
+  flex-direction: column;
+  position: relative;
+  top: 297px;
+}
+
+.cont {
+  width: 374px;
+  height: 186px;
+  background-size: cover;
+}
+
+.album_name {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.album_discr {
+  top: 16px;
+}
+
+.logo_date {
+  top: 32px;
+  font-size: 12.8px;
+}
+
+.to_album {
+  top: 80px;
+  font-size: 12.8px;
 }
