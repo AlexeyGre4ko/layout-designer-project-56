@@ -1,0 +1,13 @@
+.mobile_app {
+    top: 520px;
+
+    .mobile_cont {
+        flex-direction: column-reverse;
+        gap: 16px;
+        width: 374px;
+
+        .mobile_discr > .mobile_text {
+            width: 374px;
+        }
+    }
+}

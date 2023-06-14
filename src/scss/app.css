@@ -347,3 +347,36 @@ h2 {
   top: 103px;
   border-radius: 5px;
 }
+
+.mobile_app {
+  position: relative;
+  top: 360px;
+  display: flex;
+  flex-direction: column;
+}
+.mobile_app h2 {
+  color: #ffffff;
+  position: relative;
+  margin: 0;
+  top: 100px;
+  text-align: center;
+}
+.mobile_app .mobile_cont {
+  display: flex;
+  position: relative;
+  top: 148px;
+  gap: 144px;
+  padding-bottom: 100px;
+}
+.mobile_app .mobile_cont .mobile_text {
+  width: 600px;
+}
+.mobile_app .mobile_cont .download {
+  width: 131px;
+  height: 53px;
+  background-color: #95390C;
+  color: #ffffff;
+  border-radius: 32px;
+  font-size: 12.8px;
+  font-family: "Roboto";
+}
