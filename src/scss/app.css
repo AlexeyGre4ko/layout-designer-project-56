@@ -164,24 +164,33 @@ h2 {
   text-transform: uppercase;
 }
 
+.form_size .price .value_2_3, .form_size .price .value_1 {
+  height: 64px;
+  font-size: 64px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
 .subscription {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .subscription h2 {
-  color: #ffffff;
   position: relative;
-  margin: 0;
   top: 101px;
+  color: #ffffff;
+  margin: 0;
 }
 .subscription .forms {
-  width: 100%;
+  position: relative;
+  top: 146px;
   display: flex;
   justify-content: space-between;
-  position: relative;
+  width: 100%;
   margin: 0;
-  top: 146px;
 }
 .subscription .forms .free {
   background-image: url("/src/images/subscribe_1.png");
@@ -193,11 +202,11 @@ h2 {
   background-image: url("/src/images/subscribe_3.png");
 }
 .subscription .subsc_parag {
+  position: relative;
+  top: 189px;
   text-align: center;
   color: #ffffff;
-  position: relative;
   margin: 0;
-  top: 189px;
 }
 
 .form_size {
@@ -213,28 +222,16 @@ h2 {
 }
 .form_size .price {
   position: relative;
-  margin: 0;
   top: 176px;
   left: 86px;
   display: flex;
   gap: 16px;
+  margin: 0;
 }
 .form_size .price .value_1 {
-  height: 64px;
-  font-size: 64px;
-  color: #ffffff;
-  display: flex;
-  align-items: center;
-  justify-content: end;
   width: 72px;
 }
 .form_size .price .value_2_3 {
-  height: 64px;
-  font-size: 64px;
-  color: #ffffff;
-  display: flex;
-  align-items: center;
-  justify-content: end;
   width: 108px;
 }
 .form_size .price .currency {
@@ -242,7 +239,10 @@ h2 {
   color: #ffffff;
   text-transform: uppercase;
 }
-.form_size .subscribe {
+.form_size button {
+  position: relative;
+  top: 216px;
+  left: 22px;
   width: 320px;
   height: 66px;
   background-color: transparent;
@@ -250,19 +250,16 @@ h2 {
   color: #ffffff;
   text-transform: uppercase;
   font-size: 16px;
-  position: relative;
-  top: 216px;
-  left: 22px;
   border-radius: 5px;
 }
 .form_size .form_parag {
+  position: relative;
+  top: 280px;
+  width: 319px;
   text-align: center;
   font-size: 12.8px;
   color: #ffffff;
-  width: 319px;
-  position: relative;
   margin: 0;
-  top: 280px;
   padding-left: 22px;
 }
 
@@ -274,10 +271,10 @@ h2 {
   align-items: center;
 }
 .last_news h2 {
-  color: #ffffff;
   position: relative;
-  margin: 0;
   top: 100px;
+  color: #ffffff;
+  margin: 0;
 }
 .last_news .eminem {
   position: relative;
@@ -303,39 +300,37 @@ h2 {
   width: 575px;
   height: 286px;
 }
-
-.album_name {
+.cont .album_name {
   font-size: 30px;
   color: #ffffff;
   margin: 0;
 }
-
-.album_discr {
+.cont .album_discr {
+  position: relative;
+  top: 30px;
   font-size: 16px;
   color: #cacaca;
-  position: relative;
   margin: 0;
-  top: 30px;
 }
-
-.logo_date {
-  display: flex;
-  gap: 16px;
+.cont .logo_date {
   position: relative;
   top: 55px;
+  display: flex;
+  gap: 16px;
   align-items: center;
   height: 19px;
 }
-.logo_date .avatar {
+.cont .logo_date img {
   width: 19px;
   height: 19px;
 }
-.logo_date .music_box {
+.cont .logo_date .music_box {
   color: #F89202;
   text-transform: uppercase;
 }
-
-.to_album {
+.cont .to_album {
+  position: relative;
+  top: 103px;
   width: 135px;
   height: 53px;
   background-color: transparent;
@@ -343,8 +338,6 @@ h2 {
   color: #cacaca;
   text-transform: uppercase;
   font-size: 12.8px;
-  position: relative;
-  top: 103px;
   border-radius: 5px;
 }
 
@@ -355,16 +348,17 @@ h2 {
   flex-direction: column;
 }
 .mobile_app h2 {
-  color: #ffffff;
   position: relative;
-  margin: 0;
   top: 100px;
+  display: block;
   text-align: center;
+  color: #ffffff;
+  margin: 0;
 }
 .mobile_app .mobile_cont {
-  display: flex;
   position: relative;
   top: 148px;
+  display: flex;
   gap: 144px;
   padding-bottom: 100px;
 }
@@ -381,61 +375,66 @@ h2 {
   font-family: "Roboto";
 }
 
+.footer .info .about_us .content, .footer .info .about_us {
+  display: flex;
+  flex-direction: column;
+}
+
 .footer {
-  background: linear-gradient(90deg, #5328A1, #95390C);
   position: relative;
   top: 510px;
   height: 387px;
+  background: linear-gradient(90deg, #5328A1, #95390C);
 }
 .footer .white_line {
-  height: 2px;
-  background-color: #cacaca;
   position: relative;
   top: 132px;
+  height: 2px;
+  background-color: #cacaca;
 }
 .footer .info {
-  display: flex;
-  justify-content: space-between;
   position: relative;
   top: 62px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 .footer .info .about_us {
-  width: 270px;
-  display: flex;
-  flex-direction: column;
   gap: 15px;
+  width: 270px;
 }
-.footer .info .about_us .name {
-  font-family: "Roboto-Bold";
+.footer .info .about_us > p {
   font-size: 18px;
-  text-transform: uppercase;
   color: #ffffff;
+  font-family: "Roboto-Bold";
+  text-transform: uppercase;
   margin: 0;
 }
-.footer .info .about_us .content {
-  display: flex;
-  flex-direction: column;
-}
-.footer .info .about_us .content .p_footer {
-  margin: 0;
+.footer .info .about_us .content p {
   font-size: 16px;
   color: #E0E0E0;
-}
-.footer .info .about_us .content .logo_footer {
-  width: 22px;
-  height: 19px;
+  margin: 0;
 }
 .footer .info .about_us .content_logos {
   display: flex;
   gap: 24px;
 }
+.footer .info .about_us .content_logos img {
+  width: 22px;
+  height: 19px;
+}
 .footer .shop {
-  display: flex;
-  gap: 16px;
   position: relative;
   top: 172px;
   height: 24px;
-  align-items: center;
+  display: flex;
+  gap: 16px;
   font-size: 16px;
   color: #E0E0E0;
+  align-items: center;
+}
+.footer .shop p {
+  font-size: 16px;
+  color: #E0E0E0;
+  margin: 0;
 }

@@ -1,67 +1,77 @@
+@mixin footer($a,$b,$c: 100%){
+    position: $a;
+    top: $b;
+    height: $c;
+}
+@mixin font_size_color($d: 16px,$e: $font-footer){
+    font-size: $d;
+    color: $e;
+}
+@mixin flex_gap($f,$g){
+    display: $f;
+    gap: $g;
+}
+
+%flex_column {
+    display: flex;
+    flex-direction: column;
+}
+
 .footer {
+    @include footer(relative,510px,387px);
     background: linear-gradient(90deg, $bg-grad1, $bg-grad2);
-    position: relative;
-    top: 510px;
-    height: 387px;
 
     .white_line {
-        height: 2px;
+        @include footer(relative,132px,2px);
         background-color: $font-nav;
-        position: relative;
-        top: 132px;
     }
 
     .info {
+        @include footer(relative,62px);
         display: flex;
         justify-content: space-between;
-        position: relative;
-        top: 62px;
 
         .about_us {
-            width: 270px;
-            display: flex;
-            flex-direction: column;
+            @extend %flex_column;
             gap: 15px;
+            width: 270px;
 
-            .name {
+            >p {
+                @include font_size_color(18px,$font-color);
                 font-family: 'Roboto-Bold';
-                font-size: 18px;
                 text-transform: uppercase;
-                color: $font-color;
                 margin: 0;
             }
 
             .content {
-                display: flex;
-                flex-direction: column;
+                @extend %flex_column;
 
-                .p_footer {
+                p {
+                    @include font_size_color();
                     margin: 0;
-                    font-size: 16px;
-                    color: $font-footer;
-                }
-
-                .logo_footer {
-                    width: 22px;
-                    height: 19px;
                 }
             }
 
             .content_logos {
-                display: flex;
-                gap: 24px;
+                @include flex_gap(flex,24px);
+
+                img {
+                    width: 22px;
+                    height: 19px;
+                }
             }
         }
     }
     .shop {
-        display: flex;
-        gap: 16px;
-        position: relative;
-        top: 172px;
-        height: 24px;
+        @include footer(relative,172px,24px);
+        @include flex_gap(flex,16px);
+        @include font_size_color();
         align-items: center;
-        font-size: 16px;
-        color: $font-footer;
+
+        p {
+            @include font_size_color();
+            margin: 0;
+        }
     }
 
 }

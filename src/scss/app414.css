@@ -123,7 +123,7 @@ main .container .forms .form_size .form_type {
 main .container .forms .form_size .price {
   top: 179px;
 }
-main .container .forms .form_size .subscribe {
+main .container .forms .form_size button {
   width: 326px;
   top: 220px;
 }
@@ -149,22 +149,18 @@ main .container .subsc_parag {
   height: 186px;
   background-size: cover;
 }
-
-.album_name {
+.cont .album_name {
   font-size: 16px;
   color: #ffffff;
 }
-
-.album_discr {
+.cont .album_discr {
   top: 16px;
 }
-
-.logo_date {
+.cont .logo_date {
   top: 32px;
   font-size: 12.8px;
 }
-
-.to_album {
+.cont .to_album {
   top: 80px;
   font-size: 12.8px;
 }
@@ -177,7 +173,7 @@ main .container .subsc_parag {
   gap: 16px;
   width: 374px;
 }
-.mobile_app .mobile_cont .mobile_discr > .mobile_text {
+.mobile_app .mobile_cont .mobile_text {
   width: 374px;
 }
 
@@ -193,10 +189,10 @@ main .container .subsc_parag {
   gap: 30px;
 }
 .footer .container .shop {
+  top: 167px;
   flex-direction: column;
   align-items: start;
   gap: 16px;
-  top: 167px;
 }
 .footer .container .shop .p_footer {
   margin: 0;

@@ -1,21 +1,22 @@
+@mixin mobile_position($ma,$mb,$mc: block){
+    position: $ma;
+    top: $mb;
+    display: $mc;
+}
+
 .mobile_app {
-    position: relative;
-    top: 360px;
-    display: flex;
+    @include mobile_position(relative,360px,flex);
     flex-direction: column;
 
     h2 {
-        color: $font-color;
-        position: relative;
-        margin: 0;
-        top: 100px;
+        @include mobile_position(relative,100px);
         text-align: center;
+        color: $font-color;
+        margin: 0;
     }
 
     .mobile_cont {
-        display: flex;
-        position: relative;
-        top: 148px;
+        @include mobile_position(relative,148px,flex);
         gap: 144px;
         padding-bottom: 100px;
 

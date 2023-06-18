@@ -1,20 +1,22 @@
+@mixin news_position($na,$nb){
+    position: $na;
+    top: $nb;
+}
+
 .last_news {
-    position: relative;
-    top: 160px;
+    @include news_position(relative,160px);
     display: flex;
     flex-direction: column;
     align-items: center;
 
     h2 {
+        @include news_position(relative,100px);
         color: $font-color;
-        position: relative;
         margin: 0;
-        top: 100px;
     }
 
     .eminem {
-        position: relative;
-        top: 148px;
+        @include news_position(relative,148px);
         display: flex;
         gap: 50px;
 
@@ -23,9 +25,9 @@
         }
 
     }
+    
     .ozzy {
-        position: relative;
-        top: 213px;
+        @include news_position(relative,213px);
         display: flex;
         flex-direction: row-reverse;
         gap: 50px;
@@ -39,45 +41,46 @@
 .cont {
     width: 575px;
     height: 286px;
-}
-.album_name {
+
+    .album_name {
     font-size: 30px;
     color: $font-color;
     margin: 0;
-}
-.album_discr {
-    font-size: 16px;
-    color: $font-nav;
-    position: relative;
-    margin: 0;
-    top: 30px;
-}
-.logo_date {
-    display: flex;
-    gap: 16px;
-    position: relative;
-    top: 55px;
-    align-items: center;
-    height: 19px;
+    }
 
-    .avatar {
-        width: 19px;
+    .album_discr {
+        @include news_position(relative,30px);
+        font-size: 16px;
+        color: $font-nav;
+        margin: 0;
+    }
+
+    .logo_date {
+        @include news_position(relative,55px);
+        display: flex;
+        gap: 16px;
+        align-items: center;
         height: 19px;
+
+        img {
+            width: 19px;
+            height: 19px;
+        }
+
+        .music_box {
+            color: $font-oran;
+            text-transform: uppercase;
+        }
     }
-    .music_box {
-        color: $font-oran;
+    .to_album {
+        @include news_position(relative,103px);
+        width: 135px;
+        height: 53px;
+        background-color: transparent;
+        border: 1px solid $font-nav;
+        color: $font-nav;
         text-transform: uppercase;
+        font-size: 12.8px;
+        border-radius: 5px;
     }
-}
-.to_album {
-    width: 135px;
-    height: 53px;
-    background-color: transparent;
-    border: 1px solid $font-nav;
-    color: $font-nav;
-    text-transform: uppercase;
-    font-size: 12.8px;
-    position: relative;
-    top: 103px;
-    border-radius: 5px;
 }

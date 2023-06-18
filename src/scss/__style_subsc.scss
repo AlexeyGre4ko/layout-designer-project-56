@@ -1,22 +1,33 @@
+%value {
+    height: 64px;
+    font-size: 64px;
+    color: $font-color;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+@mixin subscr_pos($sa,$sb){
+    position: $sa;
+    top: $sb;
+}
+
 .subscription {
     display: flex;
     flex-direction: column;
     align-items: center;
 
     h2 {
+        @include subscr_pos(relative,101px);
         color: $font-color;
-        position: relative;
         margin: 0;
-        top: 101px;
     }
 
     .forms {
-        width: 100%;
+        @include subscr_pos(relative,146px);
         display: flex;
         justify-content: space-between;
-        position: relative;
+        width: 100%;
         margin: 0;
-        top: 146px;
 
         .free {
             background-image: url("/src/images/subscribe_1.png");
@@ -29,11 +40,10 @@
         }
     }
     .subsc_parag {
+        @include subscr_pos(relative,189px);
         text-align: center;
         color: $font-color;
-        position: relative;
         margin: 0;
-        top: 189px;
     }
 }
 .form_size {
@@ -48,28 +58,18 @@
         text-align: center;
     }
     .price {
-        position: relative;
-        margin: 0;
-        top: 176px;
+        @include subscr_pos(relative,176px);
         left: 86px;
         display: flex;
         gap: 16px;
-
-        @mixin value() {
-            height: 64px;
-            font-size: 64px;
-            color: $font-color;
-            display: flex;
-            align-items: center;
-            justify-content: end;
-        }
+        margin: 0;
 
         .value_1 {
-            @include value();
+            @extend %value;
             width: 72px;
         }
         .value_2_3 {
-            @include value();
+            @extend %value;
             width: 108px;
         }
 
@@ -79,7 +79,9 @@
             text-transform: uppercase;
         }
     }
-    .subscribe {
+    button {
+        @include subscr_pos(relative,216px);
+        left: 22px;
         width: 320px;
         height: 66px;
         background-color: transparent;
@@ -87,19 +89,15 @@
         color: $font-color;
         text-transform: uppercase;
         font-size: 16px;
-        position: relative;
-        top: 216px;
-        left: 22px;
         border-radius: 5px;
     }
     .form_parag {
+        @include subscr_pos(relative,280px);
+        width: 319px;
         text-align: center;
         font-size: 12.8px;
         color: $font-color;
-        width: 319px;
-        position: relative;
         margin: 0;
-        top: 280px;
         padding-left: 22px;
     }
 }
