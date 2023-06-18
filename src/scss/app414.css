@@ -180,3 +180,24 @@ main .container .subsc_parag {
 .mobile_app .mobile_cont .mobile_discr > .mobile_text {
   width: 374px;
 }
+
+.footer {
+  top: 665px;
+  height: 957px;
+}
+.footer .container {
+  padding: 0 20px;
+}
+.footer .container .info {
+  flex-direction: column;
+  gap: 30px;
+}
+.footer .container .shop {
+  flex-direction: column;
+  align-items: start;
+  gap: 16px;
+  top: 167px;
+}
+.footer .container .shop .p_footer {
+  margin: 0;
+}

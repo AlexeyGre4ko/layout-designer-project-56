@@ -380,3 +380,62 @@ h2 {
   font-size: 12.8px;
   font-family: "Roboto";
 }
+
+.footer {
+  background: linear-gradient(90deg, #5328A1, #95390C);
+  position: relative;
+  top: 510px;
+  height: 387px;
+}
+.footer .white_line {
+  height: 2px;
+  background-color: #cacaca;
+  position: relative;
+  top: 132px;
+}
+.footer .info {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 62px;
+}
+.footer .info .about_us {
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.footer .info .about_us .name {
+  font-family: "Roboto-Bold";
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 0;
+}
+.footer .info .about_us .content {
+  display: flex;
+  flex-direction: column;
+}
+.footer .info .about_us .content .p_footer {
+  margin: 0;
+  font-size: 16px;
+  color: #E0E0E0;
+}
+.footer .info .about_us .content .logo_footer {
+  width: 22px;
+  height: 19px;
+}
+.footer .info .about_us .content_logos {
+  display: flex;
+  gap: 24px;
+}
+.footer .shop {
+  display: flex;
+  gap: 16px;
+  position: relative;
+  top: 172px;
+  height: 24px;
+  align-items: center;
+  font-size: 16px;
+  color: #E0E0E0;
+}

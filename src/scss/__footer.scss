@@ -1,0 +1,67 @@
+.footer {
+    background: linear-gradient(90deg, $bg-grad1, $bg-grad2);
+    position: relative;
+    top: 510px;
+    height: 387px;
+
+    .white_line {
+        height: 2px;
+        background-color: $font-nav;
+        position: relative;
+        top: 132px;
+    }
+
+    .info {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        top: 62px;
+
+        .about_us {
+            width: 270px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+
+            .name {
+                font-family: 'Roboto-Bold';
+                font-size: 18px;
+                text-transform: uppercase;
+                color: $font-color;
+                margin: 0;
+            }
+
+            .content {
+                display: flex;
+                flex-direction: column;
+
+                .p_footer {
+                    margin: 0;
+                    font-size: 16px;
+                    color: $font-footer;
+                }
+
+                .logo_footer {
+                    width: 22px;
+                    height: 19px;
+                }
+            }
+
+            .content_logos {
+                display: flex;
+                gap: 24px;
+            }
+        }
+    }
+    .shop {
+        display: flex;
+        gap: 16px;
+        position: relative;
+        top: 172px;
+        height: 24px;
+        align-items: center;
+        font-size: 16px;
+        color: $font-footer;
+    }
+
+}
