@@ -11,93 +11,104 @@
     top: $sb;
 }
 
-.subscription {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
 
-    h2 {
-        @include subscr_pos(relative,101px);
-        color: $font-color;
-        margin: 0;
-    }
-
-    .forms {
-        @include subscr_pos(relative,146px);
+    .subscription {
         display: flex;
-        justify-content: space-between;
-        width: 100%;
-        margin: 0;
+        flex-direction: column;
+        align-items: center;
 
-        .free {
-            background-image: url("/src/images/subscribe_1.png");
+        h2 {
+            @include subscr_pos(relative,101px);
+            color: $font-color;
+            margin: 0;
         }
-        .standart {
-            background-image: url("/src/images/subscribe_2.png");
+
+        .forms {
+            @include subscr_pos(relative,146px);
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            margin: 0;
+
+            .free {
+                background-image: url("/src/images/subscribe_1.png");
+            }
+            .standart {
+                background-image: url("/src/images/subscribe_2.png");
+            }
+            .premium {
+                background-image: url("/src/images/subscribe_3.png");
+            }
         }
-        .premium {
-            background-image: url("/src/images/subscribe_3.png");
+
+        .subsc_parag {
+            @include subscr_pos(relative,189px);
+            text-align: center;
+            color: $font-color;
+            margin: 0;
         }
     }
-    .subsc_parag {
-        @include subscr_pos(relative,189px);
-        text-align: center;
-        color: $font-color;
-        margin: 0;
-    }
-}
-.form_size {
-    width: 370px;
-    height: 615px;
-    background-size: cover;
 
-    .form_type {
-        font-size: 24px;
-        text-transform: uppercase;
-        color: $font-color;
-        text-align: center;
-    }
-    .price {
-        @include subscr_pos(relative,176px);
-        left: 86px;
-        display: flex;
-        gap: 16px;
-        margin: 0;
+    .form_size {
+        width: 370px;
+        height: 615px;
+        background-size: cover;
 
-        .value_1 {
-            @extend %value;
-            width: 72px;
-        }
-        .value_2_3 {
-            @extend %value;
-            width: 108px;
+        .form_type {
+            font-size: 24px;
+            text-transform: uppercase;
+            color: $font-color;
+            text-align: center;
         }
 
-        .currency {
-            font-size: 32px;
+        .price {
+            @include subscr_pos(relative,176px);
+            left: 86px;
+            display: flex;
+            gap: 16px;
+            margin: 0;
+
+            .value_1 {
+                @extend %value;
+                width: 72px;
+            }
+
+            .value_2_3 {
+                @extend %value;
+                width: 108px;
+            }
+
+            .currency {
+                font-size: 32px;
+                color: $font-color;
+                text-transform: uppercase;
+            }
+        }
+
+        button {
+            @include subscr_pos(relative,216px);
+            left: 22px;
+            width: 320px;
+            height: 66px;
+            background-color: transparent;
+            border: 1px solid $font-color;
             color: $font-color;
             text-transform: uppercase;
+            font-size: 16px;
+            border-radius: 5px;
         }
-    }
-    button {
-        @include subscr_pos(relative,216px);
-        left: 22px;
-        width: 320px;
-        height: 66px;
-        background-color: transparent;
-        border: 1px solid $font-color;
-        color: $font-color;
-        text-transform: uppercase;
-        font-size: 16px;
-        border-radius: 5px;
-    }
-    .form_parag {
-        @include subscr_pos(relative,280px);
-        width: 319px;
-        text-align: center;
-        font-size: 12.8px;
-        color: $font-color;
-        margin: 0;
-        padding-left: 22px;
+
+        .form_parag {
+            @include subscr_pos(relative,280px);
+            width: 319px;
+            text-align: center;
+            font-size: 12.8px;
+            color: $font-color;
+            margin: 0;
+            padding-left: 22px;
+        }
     }
 }

@@ -35,16 +35,47 @@ h2 {
   height: 625px;
   padding: 27px 20px 200px;
 }
-
-.container {
+.header .container {
   width: 374px;
   margin: 0;
 }
-
-.menu {
+.header .container .menu {
   flex-direction: column;
   align-items: start;
   gap: 17px;
+}
+.header .container .menu .logo {
+  width: 100%;
+  height: 24px;
+  gap: 4%;
+}
+.header .container .menu .search {
+  width: 374px;
+  box-sizing: border-box;
+  padding-left: 10px;
+  padding-right: 0;
+}
+.header .container .page-description {
+  margin-top: 199px;
+  text-align: center;
+}
+.header .container .page-description .title_p {
+  top: 16px;
+}
+.header .container .page-description .form {
+  flex-direction: column;
+  align-items: center;
+  top: 32px;
+}
+.header .container .page-description .form .input, .header .container .page-description .form .submit {
+  width: 374px;
+  box-sizing: border-box;
+}
+.header .container .page-description .form .submit {
+  padding: 0;
+  margin: 0;
+  min-width: 374px;
+  text-align: center;
 }
 
 .nav {
@@ -53,46 +84,6 @@ h2 {
   position: relative;
   padding: 0;
   margin: 0;
-}
-
-.logo {
-  width: 100%;
-  height: 24px;
-  gap: 4%;
-}
-
-.search {
-  width: 374px;
-  box-sizing: border-box;
-  padding-left: 10px;
-  padding-right: 0;
-}
-
-.title_p {
-  top: 16px;
-}
-
-.page-description {
-  margin-top: 199px;
-  text-align: center;
-}
-
-.form {
-  flex-direction: column;
-  align-items: center;
-  top: 32px;
-}
-
-.input, .submit {
-  width: 374px;
-  box-sizing: border-box;
-}
-
-.submit {
-  padding: 0;
-  margin: 0;
-  min-width: 374px;
-  text-align: center;
 }
 
 main {

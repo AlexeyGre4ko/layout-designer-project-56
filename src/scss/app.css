@@ -20,25 +20,17 @@ body {
   margin: 0;
 }
 
-@media only screen and (min-width: 1240px) {
-  .page-description {
-    max-width: 1200px;
-  }
-}
-
 .header {
   background-image: url("/src/images/banner.png");
   background-position: center;
   background-size: cover;
   padding: 25px 0 200px;
 }
-
-.container {
+.header .container {
   max-width: 1200px;
   margin: 0 auto;
 }
-
-.menu {
+.header .container .menu {
   display: flex;
   gap: 2.5%;
   align-items: center;
@@ -48,8 +40,7 @@ body {
   text-transform: uppercase;
   font-family: "Roboto";
 }
-
-.logo {
+.header .container .menu .logo {
   display: flex;
   gap: 15%;
   flex-grow: 0.2;
@@ -57,19 +48,16 @@ body {
   align-items: center;
   color: #ffffff;
 }
-
-.nav {
+.header .container .menu nav {
+  flex-grow: 0.9;
+  color: #cacaca;
+}
+.header .container .menu nav ul {
   display: flex;
   gap: 3%;
   list-style: none;
 }
-
-.nav-list {
-  flex-grow: 0.9;
-  color: #cacaca;
-}
-
-.search {
+.header .container .menu input {
   width: 248px;
   height: 25px;
   background-color: #3c3b3d;
@@ -80,33 +68,41 @@ body {
   font-family: "Arial";
   text-transform: uppercase;
 }
-
-.page-description {
+.header .container .page-description {
   margin-top: 150px;
   color: #ffffff;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
-.title_1 {
+@media only screen and (min-width: 1240px) {
+  .header .container .page-description {
+    max-width: 1200px;
+  }
+}
+.header .container .page-description h1 {
   margin: 0;
   font-family: "Roboto-Bold";
 }
-
-.title_2 {
+.header .container .page-description h2 {
   margin: 0;
   font-family: "Roboto-Bold";
 }
-
-.title_p {
+.header .container .page-description p {
   margin: 0;
   position: relative;
   top: 31px;
   font-size: 16px;
 }
-
-.input {
+.header .container .page-description form {
+  display: flex;
+  max-width: 570px;
+  flex-wrap: wrap;
+  position: relative;
+  top: 48px;
+  gap: 24px;
+}
+.header .container .page-description form input {
   min-width: 273px;
   min-height: 50px;
   padding-left: 20px;
@@ -115,14 +111,12 @@ body {
   box-sizing: border-box;
   background: transparent;
 }
-
-.input::placeholder {
+.header .container .page-description form input::placeholder {
   color: #ffffff;
   font-family: "Roboto-Bold";
   font-size: 14px;
 }
-
-.submit {
+.header .container .page-description form .submit {
   min-width: 570px;
   min-height: 57px;
   background-color: #34c176;
@@ -132,15 +126,6 @@ body {
   padding: 21px 220px;
   box-sizing: border-box;
   font-size: 13px;
-}
-
-.form {
-  display: flex;
-  max-width: 570px;
-  flex-wrap: wrap;
-  position: relative;
-  top: 48px;
-  gap: 24px;
 }
 
 body {
@@ -164,7 +149,7 @@ h2 {
   text-transform: uppercase;
 }
 
-.form_size .price .value_2_3, .form_size .price .value_1 {
+.container .form_size .price .value_2_3, .container .form_size .price .value_1 {
   height: 64px;
   font-size: 64px;
   color: #ffffff;
@@ -173,18 +158,22 @@ h2 {
   justify-content: end;
 }
 
-.subscription {
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.container .subscription {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.subscription h2 {
+.container .subscription h2 {
   position: relative;
   top: 101px;
   color: #ffffff;
   margin: 0;
 }
-.subscription .forms {
+.container .subscription .forms {
   position: relative;
   top: 146px;
   display: flex;
@@ -192,35 +181,34 @@ h2 {
   width: 100%;
   margin: 0;
 }
-.subscription .forms .free {
+.container .subscription .forms .free {
   background-image: url("/src/images/subscribe_1.png");
 }
-.subscription .forms .standart {
+.container .subscription .forms .standart {
   background-image: url("/src/images/subscribe_2.png");
 }
-.subscription .forms .premium {
+.container .subscription .forms .premium {
   background-image: url("/src/images/subscribe_3.png");
 }
-.subscription .subsc_parag {
+.container .subscription .subsc_parag {
   position: relative;
   top: 189px;
   text-align: center;
   color: #ffffff;
   margin: 0;
 }
-
-.form_size {
+.container .form_size {
   width: 370px;
   height: 615px;
   background-size: cover;
 }
-.form_size .form_type {
+.container .form_size .form_type {
   font-size: 24px;
   text-transform: uppercase;
   color: #ffffff;
   text-align: center;
 }
-.form_size .price {
+.container .form_size .price {
   position: relative;
   top: 176px;
   left: 86px;
@@ -228,18 +216,18 @@ h2 {
   gap: 16px;
   margin: 0;
 }
-.form_size .price .value_1 {
+.container .form_size .price .value_1 {
   width: 72px;
 }
-.form_size .price .value_2_3 {
+.container .form_size .price .value_2_3 {
   width: 108px;
 }
-.form_size .price .currency {
+.container .form_size .price .currency {
   font-size: 32px;
   color: #ffffff;
   text-transform: uppercase;
 }
-.form_size button {
+.container .form_size button {
   position: relative;
   top: 216px;
   left: 22px;
@@ -252,7 +240,7 @@ h2 {
   font-size: 16px;
   border-radius: 5px;
 }
-.form_size .form_parag {
+.container .form_size .form_parag {
   position: relative;
   top: 280px;
   width: 319px;
@@ -420,8 +408,8 @@ h2 {
   gap: 24px;
 }
 .footer .info .about_us .content_logos img {
-  width: 22px;
-  height: 19px;
+  width: 26px;
+  height: 17px;
 }
 .footer .shop {
   position: relative;
