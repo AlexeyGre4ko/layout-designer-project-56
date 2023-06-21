@@ -1,3 +1,18 @@
+@mixin display_gap($ga,$gb){
+    display: $ga;
+    gap: $gb;
+}
+@mixin w_h($z1,$z2,$z3,$z4,$z5,$z6,$z7,$z8){
+    width: $z1;
+    height: $z2;
+    background-color: $z3;
+    border-radius: $z4;
+    padding: $z5;
+    color: $z6;
+    font-size: $z7;
+    text-transform: $z8;
+}
+
 body {
     margin: 0;
 }
@@ -12,8 +27,7 @@ body {
             margin: 0 auto;
 
             .menu {
-                display: flex;
-                gap: 2.5%;
+                @include display_gap(flex,2.5%);
                 align-items: center;
                 height: 25px;
                 padding: 0;
@@ -22,33 +36,25 @@ body {
                 font-family: 'Roboto';
 
                 .logo {
-                    display: flex;
-                    gap: 15%;
+                    @include display_gap(flex,15%);
                     flex-grow: 0.2;
                     width: 25px;
                     align-items: center;
                     color: $font-color;
                 }
+
                 nav {
                     flex-grow: 0.9;
                     color: $font-nav;
 
                     ul {
-                        display: flex;
-                        gap: 3%;
+                        @include display_gap(flex,3%);
                         list-style: none;
                     }
                 }
                 input {
-                    width: 248px;
-                    height: 25px;
-                    background-color: $bg-search;
-                    border-radius: 50px;
-                    padding: 5px 180px 5px 10px;
-                    color: $font-color-dark;
-                    font-size: 13.3px;
+                    @include w_h(248px,25px,$bg-search,50px,5px 180px 5px 10px,$font-color-dark,13.3px,uppercase);
                     font-family: 'Arial';
-                    text-transform: uppercase;
                 }
             }
 
@@ -80,12 +86,11 @@ body {
                 }
 
                 form {
-                    display: flex;
+                    @include display_gap(flex,24px);
                     max-width: 570px;
                     flex-wrap: wrap;
                     position: relative;
                     top: 48px;
-                    gap: 24px;
 
                     input {
                         min-width: 273px;
@@ -104,15 +109,8 @@ body {
                     }
 
                     .submit {
-                        min-width: 570px;
-                        min-height: 57px;
-                        background-color: $bg-submit;
-                        border-radius: 5px;
-                        color: $font-color;
-                        text-transform: uppercase;
-                        padding: 21px 220px;
+                        @include w_h(570px,57px,$bg-submit,5px,21px 220px,$font-color,13px,uppercase);
                         box-sizing: border-box;
-                        font-size: 13px;
                     }
                 }
             }

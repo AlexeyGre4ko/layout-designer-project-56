@@ -65,8 +65,8 @@ body {
   padding: 5px 180px 5px 10px;
   color: #757575;
   font-size: 13.3px;
-  font-family: "Arial";
   text-transform: uppercase;
+  font-family: "Arial";
 }
 .header .container .page-description {
   margin-top: 150px;
@@ -96,11 +96,11 @@ body {
 }
 .header .container .page-description form {
   display: flex;
+  gap: 24px;
   max-width: 570px;
   flex-wrap: wrap;
   position: relative;
   top: 48px;
-  gap: 24px;
 }
 .header .container .page-description form input {
   min-width: 273px;
@@ -117,15 +117,15 @@ body {
   font-size: 14px;
 }
 .header .container .page-description form .submit {
-  min-width: 570px;
-  min-height: 57px;
+  width: 570px;
+  height: 57px;
   background-color: #34c176;
   border-radius: 5px;
-  color: #ffffff;
-  text-transform: uppercase;
   padding: 21px 220px;
-  box-sizing: border-box;
+  color: #ffffff;
   font-size: 13px;
+  text-transform: uppercase;
+  box-sizing: border-box;
 }
 
 body {

@@ -30,6 +30,11 @@ h2 {
   text-transform: uppercase;
 }
 
+.header .container .page-description form .submit, .header .container .menu nav ul, .header .container .menu nav {
+  padding: 0;
+  margin: 0;
+}
+
 .header {
   width: 374px;
   height: 625px;
@@ -49,7 +54,15 @@ h2 {
   height: 24px;
   gap: 4%;
 }
-.header .container .menu .search {
+.header .container .menu nav {
+  position: relative;
+}
+.header .container .menu nav ul {
+  flex-direction: column;
+  align-items: start;
+  gap: 3px;
+}
+.header .container .menu input, .header .container .menu .page-description form .submit, .header .container .page-description form .menu .submit {
   width: 374px;
   box-sizing: border-box;
   padding-left: 10px;
@@ -62,28 +75,18 @@ h2 {
 .header .container .page-description .title_p {
   top: 16px;
 }
-.header .container .page-description .form {
+.header .container .page-description form {
   flex-direction: column;
   align-items: center;
-  top: 32px;
+  top: 48px;
 }
-.header .container .page-description .form .input, .header .container .page-description .form .submit {
+.header .container .page-description form input, .header .container .page-description form .submit {
   width: 374px;
   box-sizing: border-box;
 }
-.header .container .page-description .form .submit {
-  padding: 0;
-  margin: 0;
+.header .container .page-description form .submit {
   min-width: 374px;
   text-align: center;
-}
-
-.nav {
-  flex-direction: column;
-  align-items: start;
-  position: relative;
-  padding: 0;
-  margin: 0;
 }
 
 main {
