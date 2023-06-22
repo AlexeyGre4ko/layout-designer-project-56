@@ -2,6 +2,12 @@
     padding: 0;
     margin: 0;
 }
+%input {
+    width: 374px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 0;
+}
 @mixin flex_aling($fa,$fb){
     flex-direction: $fa;
     align-items: $fb;
@@ -38,10 +44,7 @@
             }
 
             input {
-                width: 374px;
-                box-sizing: border-box;
-                padding-left: 10px;
-                padding-right: 0;
+                @extend %input;
             }
         }
 
@@ -62,7 +65,7 @@
                     box-sizing: border-box;
                 }
                 .submit {
-                    @extend input;
+                    @extend %input;
                     @extend %mar_pad;
                     min-width: 374px;
                     text-align: center;

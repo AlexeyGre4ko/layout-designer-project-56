@@ -35,6 +35,13 @@ h2 {
   margin: 0;
 }
 
+.header .container .page-description form .submit, .header .container .menu input {
+  width: 374px;
+  box-sizing: border-box;
+  padding-left: 10px;
+  padding-right: 0;
+}
+
 .header {
   width: 374px;
   height: 625px;
@@ -62,12 +69,6 @@ h2 {
   align-items: start;
   gap: 3px;
 }
-.header .container .menu input, .header .container .menu .page-description form .submit, .header .container .page-description form .menu .submit {
-  width: 374px;
-  box-sizing: border-box;
-  padding-left: 10px;
-  padding-right: 0;
-}
 .header .container .page-description {
   margin-top: 199px;
   text-align: center;
@@ -80,7 +81,7 @@ h2 {
   align-items: center;
   top: 48px;
 }
-.header .container .page-description form input, .header .container .page-description form .submit {
+.header .container .page-description form input {
   width: 374px;
   box-sizing: border-box;
 }
