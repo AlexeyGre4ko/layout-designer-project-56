@@ -67,7 +67,6 @@
                 .submit {
                     @extend %input;
                     @extend %mar_pad;
-                    min-width: 374px;
                     text-align: center;
                 }
             }

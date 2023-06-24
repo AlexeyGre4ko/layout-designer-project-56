@@ -86,7 +86,6 @@ h2 {
   box-sizing: border-box;
 }
 .header .container .page-description form .submit {
-  min-width: 374px;
   text-align: center;
 }
 
