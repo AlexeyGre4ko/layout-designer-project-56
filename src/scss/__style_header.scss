@@ -16,7 +16,7 @@
 body {
     margin: 0;
 }
-    .header {
+    .page-description {
         background-image: url("/src/images/banner.png");
         background-position: center;
         background-size: cover;
@@ -58,7 +58,7 @@ body {
                 }
             }
 
-            .page-description {
+            .page-description_1 {
                 @media only screen and (min-width: 1240px) {
                     max-width: 1200px;
                 }

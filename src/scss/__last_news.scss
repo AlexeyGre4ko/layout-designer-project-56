@@ -3,7 +3,7 @@
     top: $nb;
 }
 
-.last_news {
+.page-news {
     @include news_position(relative,160px);
     display: flex;
     flex-direction: column;
@@ -25,7 +25,7 @@
         }
 
     }
-    
+
     .ozzy {
         @include news_position(relative,213px);
         display: flex;

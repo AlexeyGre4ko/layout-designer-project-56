@@ -4,7 +4,7 @@
     display: $mc;
 }
 
-.mobile_app {
+.page-app {
     @include mobile_position(relative,360px,flex);
     flex-direction: column;
 

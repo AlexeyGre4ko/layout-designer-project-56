@@ -1,0 +1,68 @@
+.morten {
+    background-image: url("/src/images/Morten Harket.png");
+    background-position: center;
+    background-size: cover;
+    height: 488px;
+
+    .page-description_2 {
+
+        @media only screen and (min-width: 1240px) {
+        max-width: 1200px;
+        }
+        margin-top: 200px;
+        color: $font-color;
+        display: flex;
+        flex-direction: column;
+
+        h1 {
+            margin: 0;
+            font-family: 'Roboto-Bold';
+        }
+
+        h2 {
+            margin: 0;
+            font-family: 'Roboto-Bold';
+        }
+
+        p {
+            margin:0;
+            position: relative;
+            top: 16px;
+            font-size: 16px;
+        }
+
+        form {
+            @include display_gap(flex,24px);
+            max-width: 424px;
+            flex-wrap: wrap;
+            position: relative;
+            top: 72px;
+
+            .btn {
+                min-width: 200px;
+                min-height: 63px;
+                padding-left: 31px;
+                border-radius: 5px;
+                box-sizing: border-box;
+                font-size: 12.8px;
+                color: $font-color;
+                font-family: 'Roboto';
+                text-transform: uppercase;
+                display: flex;
+                align-items: center;
+                gap: 16px;
+
+                svg {
+                    width: 20px;
+                    height: 20px;
+                }
+            }
+            .purple {
+                background-color: $bg-grad1;
+            }
+            .red {
+                background-color: $bg-grad2;
+            }
+        }
+    }
+}

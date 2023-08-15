@@ -132,7 +132,7 @@ main .container .subsc_parag {
   flex-direction: column;
 }
 
-.last_news > .ozzy {
+.page-news > .ozzy {
   flex-direction: column;
   position: relative;
   top: 297px;
@@ -159,15 +159,15 @@ main .container .subsc_parag {
   font-size: 12.8px;
 }
 
-.mobile_app {
+.page-app {
   top: 520px;
 }
-.mobile_app .mobile_cont {
+.page-app .mobile_cont {
   flex-direction: column-reverse;
   gap: 16px;
   width: 374px;
 }
-.mobile_app .mobile_cont .mobile_text {
+.page-app .mobile_cont .mobile_text {
   width: 374px;
 }
 

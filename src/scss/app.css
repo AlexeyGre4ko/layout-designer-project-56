@@ -20,17 +20,17 @@ body {
   margin: 0;
 }
 
-.header {
+.page-description {
   background-image: url("/src/images/banner.png");
   background-position: center;
   background-size: cover;
   padding: 25px 0 200px;
 }
-.header .container {
+.page-description .container {
   max-width: 1200px;
   margin: 0 auto;
 }
-.header .container .menu {
+.page-description .container .menu {
   display: flex;
   gap: 2.5%;
   align-items: center;
@@ -40,7 +40,7 @@ body {
   text-transform: uppercase;
   font-family: "Roboto";
 }
-.header .container .menu .logo {
+.page-description .container .menu .logo {
   display: flex;
   gap: 15%;
   flex-grow: 0.2;
@@ -48,16 +48,16 @@ body {
   align-items: center;
   color: #ffffff;
 }
-.header .container .menu nav {
+.page-description .container .menu nav {
   flex-grow: 0.9;
   color: #cacaca;
 }
-.header .container .menu nav ul {
+.page-description .container .menu nav ul {
   display: flex;
   gap: 3%;
   list-style: none;
 }
-.header .container .menu input {
+.page-description .container .menu input {
   width: 248px;
   height: 25px;
   background-color: #3c3b3d;
@@ -68,7 +68,7 @@ body {
   text-transform: uppercase;
   font-family: "Arial";
 }
-.header .container .page-description {
+.page-description .container .page-description_1 {
   margin-top: 150px;
   color: #ffffff;
   display: flex;
@@ -76,25 +76,25 @@ body {
   align-items: center;
 }
 @media only screen and (min-width: 1240px) {
-  .header .container .page-description {
+  .page-description .container .page-description_1 {
     max-width: 1200px;
   }
 }
-.header .container .page-description h1 {
+.page-description .container .page-description_1 h1 {
   margin: 0;
   font-family: "Roboto-Bold";
 }
-.header .container .page-description h2 {
+.page-description .container .page-description_1 h2 {
   margin: 0;
   font-family: "Roboto-Bold";
 }
-.header .container .page-description p {
+.page-description .container .page-description_1 p {
   margin: 0;
   position: relative;
   top: 31px;
   font-size: 16px;
 }
-.header .container .page-description form {
+.page-description .container .page-description_1 form {
   display: flex;
   gap: 24px;
   max-width: 570px;
@@ -102,7 +102,7 @@ body {
   position: relative;
   top: 48px;
 }
-.header .container .page-description form input {
+.page-description .container .page-description_1 form input {
   min-width: 273px;
   min-height: 50px;
   padding-left: 20px;
@@ -111,12 +111,12 @@ body {
   box-sizing: border-box;
   background: transparent;
 }
-.header .container .page-description form input::placeholder {
+.page-description .container .page-description_1 form input::placeholder {
   color: #ffffff;
   font-family: "Roboto-Bold";
   font-size: 14px;
 }
-.header .container .page-description form .submit {
+.page-description .container .page-description_1 form .submit {
   width: 570px;
   height: 57px;
   background-color: #34c176;
@@ -162,18 +162,18 @@ h2 {
   max-width: 1200px;
   margin: 0 auto;
 }
-.container .subscription {
+.container .page-pricing {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.container .subscription h2 {
+.container .page-pricing h2 {
   position: relative;
   top: 101px;
   color: #ffffff;
   margin: 0;
 }
-.container .subscription .forms {
+.container .page-pricing .forms {
   position: relative;
   top: 146px;
   display: flex;
@@ -181,16 +181,16 @@ h2 {
   width: 100%;
   margin: 0;
 }
-.container .subscription .forms .free {
+.container .page-pricing .forms .free {
   background-image: url("/src/images/subscribe_1.png");
 }
-.container .subscription .forms .standart {
+.container .page-pricing .forms .standart {
   background-image: url("/src/images/subscribe_2.png");
 }
-.container .subscription .forms .premium {
+.container .page-pricing .forms .premium {
   background-image: url("/src/images/subscribe_3.png");
 }
-.container .subscription .subsc_parag {
+.container .page-pricing .subsc_parag {
   position: relative;
   top: 189px;
   text-align: center;
@@ -251,36 +251,36 @@ h2 {
   padding-left: 22px;
 }
 
-.last_news {
+.page-news {
   position: relative;
   top: 160px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.last_news h2 {
+.page-news h2 {
   position: relative;
   top: 100px;
   color: #ffffff;
   margin: 0;
 }
-.last_news .eminem {
+.page-news .eminem {
   position: relative;
   top: 148px;
   display: flex;
   gap: 50px;
 }
-.last_news .eminem .em {
+.page-news .eminem .em {
   background-image: url("/src/images/Music to Be Murdered By.png");
 }
-.last_news .ozzy {
+.page-news .ozzy {
   position: relative;
   top: 213px;
   display: flex;
   flex-direction: row-reverse;
   gap: 50px;
 }
-.last_news .ozzy .oz {
+.page-news .ozzy .oz {
   background-image: url("/src/images/Ordinary Man.png");
 }
 
@@ -329,13 +329,13 @@ h2 {
   border-radius: 5px;
 }
 
-.mobile_app {
+.page-app {
   position: relative;
   top: 360px;
   display: flex;
   flex-direction: column;
 }
-.mobile_app h2 {
+.page-app h2 {
   position: relative;
   top: 100px;
   display: block;
@@ -343,17 +343,17 @@ h2 {
   color: #ffffff;
   margin: 0;
 }
-.mobile_app .mobile_cont {
+.page-app .mobile_cont {
   position: relative;
   top: 148px;
   display: flex;
   gap: 144px;
   padding-bottom: 100px;
 }
-.mobile_app .mobile_cont .mobile_text {
+.page-app .mobile_cont .mobile_text {
   width: 600px;
 }
-.mobile_app .mobile_cont .download {
+.page-app .mobile_cont .download {
   width: 131px;
   height: 53px;
   background-color: #95390C;
@@ -372,7 +372,7 @@ h2 {
   position: relative;
   top: 510px;
   height: 387px;
-  background: linear-gradient(90deg, #5328A1, #95390C);
+  background: linear-gradient(90deg, #5328A1 32.83%, #95390C 81.56%);
 }
 .footer .white_line {
   position: relative;
@@ -425,4 +425,68 @@ h2 {
   font-size: 16px;
   color: #E0E0E0;
   margin: 0;
+}
+
+.morten {
+  background-image: url("/src/images/Morten Harket.png");
+  background-position: center;
+  background-size: cover;
+  height: 488px;
+}
+.morten .page-description_2 {
+  margin-top: 200px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+@media only screen and (min-width: 1240px) {
+  .morten .page-description_2 {
+    max-width: 1200px;
+  }
+}
+.morten .page-description_2 h1 {
+  margin: 0;
+  font-family: "Roboto-Bold";
+}
+.morten .page-description_2 h2 {
+  margin: 0;
+  font-family: "Roboto-Bold";
+}
+.morten .page-description_2 p {
+  margin: 0;
+  position: relative;
+  top: 16px;
+  font-size: 16px;
+}
+.morten .page-description_2 form {
+  display: flex;
+  gap: 24px;
+  max-width: 424px;
+  flex-wrap: wrap;
+  position: relative;
+  top: 72px;
+}
+.morten .page-description_2 form .btn {
+  min-width: 200px;
+  min-height: 63px;
+  padding-left: 31px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 12.8px;
+  color: #ffffff;
+  font-family: "Roboto";
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.morten .page-description_2 form .btn svg {
+  width: 20px;
+  height: 20px;
+}
+.morten .page-description_2 form .purple {
+  background-color: #5328A1;
+}
+.morten .page-description_2 form .red {
+  background-color: #95390C;
 }

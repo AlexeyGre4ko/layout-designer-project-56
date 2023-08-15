@@ -19,7 +19,7 @@
 
 .footer {
     @include footer(relative,510px,387px);
-    background: linear-gradient(90deg, $bg-grad1, $bg-grad2);
+    background: linear-gradient(90deg, $bg-grad1 32.83%, $bg-grad2 81.56%);
 
     .white_line {
         @include footer(relative,132px,2px);
