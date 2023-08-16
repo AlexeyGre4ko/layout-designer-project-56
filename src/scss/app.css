@@ -468,7 +468,7 @@ h2 {
 }
 .morten .page-description_2 form .btn {
   min-width: 200px;
-  min-height: 63px;
+  min-height: 62px;
   padding-left: 31px;
   border-radius: 5px;
   box-sizing: border-box;
@@ -479,6 +479,8 @@ h2 {
   display: flex;
   align-items: center;
   gap: 16px;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 .morten .page-description_2 form .btn svg {
   width: 20px;

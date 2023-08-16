@@ -30,62 +30,62 @@ h2 {
   text-transform: uppercase;
 }
 
-.header .container .page-description form .submit, .header .container .menu nav ul, .header .container .menu nav {
+.page-description .container .page-description_1 form .submit, .page-description .container .menu nav ul, .page-description .container .menu nav {
   padding: 0;
   margin: 0;
 }
 
-.header .container .page-description form .submit, .header .container .menu input {
+.page-description .container .page-description_1 form .submit, .page-description .container .menu input {
   width: 374px;
   box-sizing: border-box;
   padding-left: 10px;
   padding-right: 0;
 }
 
-.header {
+.page-description {
   width: 374px;
   height: 625px;
   padding: 27px 20px 200px;
 }
-.header .container {
+.page-description .container {
   width: 374px;
   margin: 0;
 }
-.header .container .menu {
+.page-description .container .menu {
   flex-direction: column;
   align-items: start;
   gap: 17px;
 }
-.header .container .menu .logo {
+.page-description .container .menu .logo {
   width: 100%;
   height: 24px;
   gap: 4%;
 }
-.header .container .menu nav {
+.page-description .container .menu nav {
   position: relative;
 }
-.header .container .menu nav ul {
+.page-description .container .menu nav ul {
   flex-direction: column;
   align-items: start;
   gap: 3px;
 }
-.header .container .page-description {
+.page-description .container .page-description_1 {
   margin-top: 199px;
   text-align: center;
 }
-.header .container .page-description .title_p {
+.page-description .container .page-description_1 .title_p {
   top: 16px;
 }
-.header .container .page-description form {
+.page-description .container .page-description_1 form {
   flex-direction: column;
   align-items: center;
   top: 48px;
 }
-.header .container .page-description form input {
+.page-description .container .page-description_1 form input {
   width: 374px;
   box-sizing: border-box;
 }
-.header .container .page-description form .submit {
+.page-description .container .page-description_1 form .submit {
   text-align: center;
 }
 
@@ -190,4 +190,54 @@ main .container .subsc_parag {
 }
 .footer .container .shop .p_footer {
   margin: 0;
+}
+
+.page-description .container .menu nav, .page-description .container .menu nav ul, .page-description .container .page-description_1 form .submit {
+  padding: 0;
+  margin: 0;
+}
+
+.page-description .container .menu input, .page-description .container .page-description_1 form .submit {
+  width: 374px;
+  box-sizing: border-box;
+  padding-left: 10px;
+  padding-right: 0;
+}
+
+.page-description {
+  width: 374px;
+  height: 480px;
+  padding: 25px 20px 225px;
+}
+.page-description .container {
+  width: 374px;
+  margin: 0;
+}
+.page-description .container .menu {
+  flex-direction: column;
+  align-items: start;
+  gap: 17px;
+}
+.page-description .container .menu .logo {
+  width: 100%;
+  height: 24px;
+  gap: 4%;
+}
+.page-description .container .menu nav {
+  position: relative;
+}
+.page-description .container .menu nav ul {
+  flex-direction: column;
+  align-items: start;
+  gap: 3px;
+}
+.page-description .container .menu nav ul li {
+  height: 13px;
+}
+.page-description .container .page-description_2 {
+  margin-top: 170px;
+}
+.page-description .container .page-description_2 form {
+  flex-direction: column;
+  align-items: start;
 }

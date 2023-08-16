@@ -15,8 +15,8 @@
 
 .page-description {
     width: 374px;
-    height: 625px;
-    padding: 27px 20px 200px;
+    height: 480px;
+    padding: 25px 20px 225px;
 
     .container {
         width: 374px;
@@ -40,6 +40,10 @@
                     @include flex_aling(column,start);
                     gap: 3px;
                     @extend %mar_pad;
+
+                    li {
+                        height: 13px;
+                    }
                 }
             }
 
@@ -48,27 +52,11 @@
             }
         }
 
-        .page-description_1 {
-            margin-top: 199px;
-            text-align: center;
-
-            .title_p {
-                top: 16px;
-            }
+        .page-description_2 {
+            margin-top: 170px;
 
             form {
-                @include flex_aling(column,center);
-                top: 48px;
-
-                input {
-                    width: 374px;
-                    box-sizing: border-box;
-                }
-                .submit {
-                    @extend %input;
-                    @extend %mar_pad;
-                    text-align: center;
-                }
+                @include flex_aling(column,start);
             }
         }
     }
