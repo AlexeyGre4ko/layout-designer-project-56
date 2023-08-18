@@ -1,0 +1,58 @@
+.page-popular-track {
+    @media only screen and (min-width: 1240px) {
+        max-width: 1200px;
+        }
+        color: $font-color;
+        margin: 0 auto;
+        padding-top: 100px;
+        display: flex;
+        flex-direction: column;
+
+        h2 {
+            font-size: 38px;
+            font-family: Roboto-Bold;
+            margin: 0;
+        }
+
+        .tracks {
+            display: flex;
+            flex-wrap: wrap;
+            align-content: space-between;
+            height: 215px;
+            top: 48px;
+            position: relative;
+
+            .track {
+                width: 551px;
+                height: 55px;
+                display: flex;
+
+                img {
+                    width: 55px;
+                    height: 55px;
+                }
+
+                div {
+                    padding-left: 15px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content:  center;
+
+                    .song {
+                        margin: 0;
+                        text-transform: uppercase;
+                        font-size: 12.8px;
+                        font-family: Roboto-Bold;
+                    }
+                    .perfomer {
+                        margin: 0;
+                        font-size: 12.8px;
+                    }
+                }
+
+                p {
+                    padding-left: 100px;
+                }
+            }
+        }
+}
