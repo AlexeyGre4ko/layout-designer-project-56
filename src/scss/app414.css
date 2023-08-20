@@ -245,6 +245,7 @@ main .container .subsc_parag {
 .page-popular-track {
   width: 374px;
   padding: 100px 20px 0;
+  height: 530px;
 }
 .page-popular-track h2 {
   font-size: 18px;
@@ -259,4 +260,50 @@ main .container .subsc_parag {
 }
 .page-popular-track .tracks .left .track {
   width: 374px;
+}
+
+.page-discography {
+  width: 374px;
+  padding: 100px 20px 0;
+  height: 797px;
+}
+.page-discography h2 {
+  font-size: 18px;
+}
+.page-discography .high {
+  flex-wrap: wrap;
+  gap: 25px;
+}
+.page-discography .high .album {
+  height: 206px;
+  width: 137px;
+}
+.page-discography .high .album img {
+  height: 137px;
+  width: 137px;
+}
+.page-discography .high .album .name {
+  font-size: 18px;
+  width: 138px;
+}
+.page-discography .high .album .year {
+  font-size: 16px;
+}
+.page-discography .low {
+  gap: 25px;
+  top: 105px;
+}
+.page-discography .low .album {
+  height: 206px;
+  width: 137px;
+}
+.page-discography .low .album img {
+  height: 137px;
+  width: 137px;
+}
+.page-discography .low .album .name {
+  font-size: 18px;
+}
+.page-discography .low .album .year {
+  font-size: 16px;
 }

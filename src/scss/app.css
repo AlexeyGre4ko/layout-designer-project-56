@@ -499,6 +499,7 @@ h2 {
   padding-top: 100px;
   display: flex;
   flex-direction: column;
+  height: 320px;
 }
 @media only screen and (min-width: 1240px) {
   .page-popular-track {
@@ -553,4 +554,60 @@ h2 {
   flex-grow: 1;
   display: flex;
   justify-content: end;
+}
+
+.page-discography {
+  color: #ffffff;
+  margin: 0 auto;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+@media only screen and (min-width: 1240px) {
+  .page-discography {
+    max-width: 1200px;
+  }
+}
+.page-discography h2 {
+  margin: 0;
+}
+.page-discography .high {
+  display: flex;
+  gap: 50px;
+  position: relative;
+  top: 48px;
+}
+.page-discography .high .album {
+  height: 319px;
+}
+.page-discography .high .album .name {
+  margin: 18px 0 0;
+  font-family: Roboto-Bold;
+  line-height: 27px;
+  font-size: 18px;
+}
+.page-discography .high .album .year {
+  margin: 0;
+  line-height: 24px;
+  font-size: 16px;
+}
+.page-discography .low {
+  display: flex;
+  gap: 50px;
+  position: relative;
+  top: 73px;
+}
+.page-discography .low .album {
+  height: 319px;
+}
+.page-discography .low .album .name {
+  margin: 18px 0 0;
+  font-family: Roboto-Bold;
+  line-height: 27px;
+  font-size: 18px;
+}
+.page-discography .low .album .year {
+  margin: 0;
+  line-height: 24px;
+  font-size: 16px;
 }

@@ -1,0 +1,59 @@
+.page-discography {
+    @media only screen and (min-width: 1240px) {
+        max-width: 1200px;
+        }
+        color: $font-color;
+        margin: 0 auto;
+        padding-top: 100px;
+        display: flex;
+        flex-direction: column;
+
+        h2 {
+            margin: 0;
+        }
+
+        .high {
+            display: flex;
+            gap: 50px;
+            position: relative;
+            top: 48px;
+
+            .album {
+                height: 319px;
+
+                .name {
+                    margin: 18px 0 0;
+                    font-family: Roboto-Bold;
+                    line-height: 27px;
+                    font-size: 18px;
+                }
+                .year {
+                    margin: 0;
+                    line-height: 24px;
+                    font-size: 16px;
+                }
+            }
+        }
+        .low {
+            display: flex;
+            gap: 50px;
+            position: relative;
+            top: 73px;
+
+            .album {
+                height: 319px;
+
+                .name {
+                    margin: 18px 0 0;
+                    font-family: Roboto-Bold;
+                    line-height: 27px;
+                    font-size: 18px;
+                }
+                .year {
+                    margin: 0;
+                    line-height: 24px;
+                    font-size: 16px;
+                }
+            }
+        }
+}

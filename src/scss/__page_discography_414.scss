@@ -1,0 +1,53 @@
+.page-discography {
+    width: 374px;
+    padding: 100px 20px 0;
+    height: 797px;
+
+    h2 {
+        font-size: 18px;
+    }
+
+    .high {
+        flex-wrap: wrap;
+        gap: 25px;
+
+        .album {
+            height: 206px;
+            width: 137px;
+
+            img {
+                height: 137px;
+                width: 137px;
+            }
+            .name {
+                font-size: 18px;
+                width: 138px;
+            }
+            .year {
+                font-size: 16px;
+            }
+        }
+    }
+
+
+    .low {
+        gap: 25px;
+        top: 105px;
+
+        .album {
+            height: 206px;
+            width: 137px;
+
+            img {
+                height: 137px;
+                width: 137px;
+            }
+            .name {
+                font-size: 18px;
+            }
+            .year {
+                font-size: 16px;
+            }
+        }
+    }
+}
