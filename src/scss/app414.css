@@ -241,3 +241,22 @@ main .container .subsc_parag {
   flex-direction: column;
   align-items: start;
 }
+
+.page-popular-track {
+  width: 374px;
+  padding: 100px 20px 0;
+}
+.page-popular-track h2 {
+  font-size: 18px;
+}
+.page-popular-track .tracks {
+  flex-direction: column;
+  gap: 25px;
+  width: 374px;
+}
+.page-popular-track .tracks .left {
+  gap: 25px;
+}
+.page-popular-track .tracks .left .track {
+  width: 374px;
+}

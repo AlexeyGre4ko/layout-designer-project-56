@@ -511,38 +511,46 @@ h2 {
   margin: 0;
 }
 .page-popular-track .tracks {
+  width: 1152px;
   display: flex;
-  flex-wrap: wrap;
-  align-content: space-between;
+  gap: 50px;
   height: 215px;
   top: 48px;
   position: relative;
 }
-.page-popular-track .tracks .track {
+.page-popular-track .tracks .left {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  width: 551px;
+}
+.page-popular-track .tracks .left .track {
   width: 551px;
   height: 55px;
   display: flex;
 }
-.page-popular-track .tracks .track img {
+.page-popular-track .tracks .left .track img {
   width: 55px;
   height: 55px;
 }
-.page-popular-track .tracks .track div {
+.page-popular-track .tracks .left .track div {
   padding-left: 15px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.page-popular-track .tracks .track div .song {
+.page-popular-track .tracks .left .track div .song {
   margin: 0;
   text-transform: uppercase;
   font-size: 12.8px;
   font-family: Roboto-Bold;
 }
-.page-popular-track .tracks .track div .perfomer {
+.page-popular-track .tracks .left .track div .perfomer {
   margin: 0;
   font-size: 12.8px;
 }
-.page-popular-track .tracks .track p {
-  padding-left: 100px;
+.page-popular-track .tracks .left .track .time {
+  flex-grow: 1;
+  display: flex;
+  justify-content: end;
 }

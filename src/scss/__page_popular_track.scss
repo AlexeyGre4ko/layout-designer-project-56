@@ -15,44 +15,54 @@
         }
 
         .tracks {
+            width: 1152px;
             display: flex;
-            flex-wrap: wrap;
-            align-content: space-between;
+            gap: 50px;
             height: 215px;
             top: 48px;
             position: relative;
 
-            .track {
-                width: 551px;
-                height: 55px;
+            .left {
                 display: flex;
+                flex-wrap: wrap;
+                align-content: space-between;
+                width: 551px;
 
-                img {
-                    width: 55px;
+                .track {
+                    width: 551px;
                     height: 55px;
-                }
-
-                div {
-                    padding-left: 15px;
                     display: flex;
-                    flex-direction: column;
-                    justify-content:  center;
 
-                    .song {
-                        margin: 0;
-                        text-transform: uppercase;
-                        font-size: 12.8px;
-                        font-family: Roboto-Bold;
+                    img {
+                        width: 55px;
+                        height: 55px;
                     }
-                    .perfomer {
-                        margin: 0;
-                        font-size: 12.8px;
-                    }
-                }
 
-                p {
-                    padding-left: 100px;
+                    div {
+                        padding-left: 15px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content:  center;
+
+                        .song {
+                            margin: 0;
+                            text-transform: uppercase;
+                            font-size: 12.8px;
+                            font-family: Roboto-Bold;
+                        }
+                        .perfomer {
+                            margin: 0;
+                            font-size: 12.8px;
+                        }
+                    }
+
+                    .time {
+                        flex-grow: 1;
+                        display: flex;
+                        justify-content: end;
+                    }
                 }
             }
         }
+
 }

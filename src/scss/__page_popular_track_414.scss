@@ -1,0 +1,23 @@
+.page-popular-track {
+    width: 374px;
+    padding: 100px 20px 0;
+
+    h2 {
+        font-size: 18px;
+    }
+
+    .tracks {
+        flex-direction: column;
+        gap: 25px;
+        width: 374px;
+
+
+        .left {
+            gap: 25px;
+
+            .track {
+                width: 374px;
+            }
+        }
+    }
+}
