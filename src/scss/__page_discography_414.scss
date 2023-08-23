@@ -28,26 +28,8 @@
             }
         }
     }
-
-
     .low {
-        gap: 25px;
         top: 105px;
-
-        .album {
-            height: 206px;
-            width: 137px;
-
-            img {
-                height: 137px;
-                width: 137px;
-            }
-            .name {
-                font-size: 18px;
-            }
-            .year {
-                font-size: 16px;
-            }
-        }
+        @extend .high;
     }
 }

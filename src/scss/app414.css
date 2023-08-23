@@ -270,40 +270,62 @@ main .container .subsc_parag {
 .page-discography h2 {
   font-size: 18px;
 }
-.page-discography .high {
+.page-discography .high, .page-discography .low {
   flex-wrap: wrap;
   gap: 25px;
 }
-.page-discography .high .album {
+.page-discography .high .album, .page-discography .low .album {
   height: 206px;
   width: 137px;
 }
-.page-discography .high .album img {
+.page-discography .high .album img, .page-discography .low .album img {
   height: 137px;
   width: 137px;
 }
-.page-discography .high .album .name {
+.page-discography .high .album .name, .page-discography .low .album .name {
   font-size: 18px;
   width: 138px;
 }
-.page-discography .high .album .year {
+.page-discography .high .album .year, .page-discography .low .album .year {
   font-size: 16px;
 }
 .page-discography .low {
-  gap: 25px;
   top: 105px;
 }
-.page-discography .low .album {
-  height: 206px;
-  width: 137px;
+
+.page-similar {
+  width: 374px;
+  padding: 100px 20px 0;
+  height: 1070px;
 }
-.page-discography .low .album img {
-  height: 137px;
-  width: 137px;
-}
-.page-discography .low .album .name {
+.page-similar h2 {
   font-size: 18px;
 }
-.page-discography .low .album .year {
+.page-similar .items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  height: 485px;
+}
+.page-similar .items .two_items {
+  display: flex;
+  gap: 50px;
+}
+.page-similar .items .two_items .item {
+  text-align: center;
+}
+.page-similar .items .two_items .item img {
+  width: 137px;
+  height: 137px;
+  border-radius: 68px;
+}
+.page-similar .items .two_items .item h3 {
+  font-size: 18px;
+  margin: 10px 0 0;
+}
+.page-similar .items .two_items .item p {
   font-size: 16px;
+  margin: 1px 0 0;
+  width: 137px;
+  height: 48px;
 }

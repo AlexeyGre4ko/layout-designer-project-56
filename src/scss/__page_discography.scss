@@ -7,6 +7,7 @@
         padding-top: 100px;
         display: flex;
         flex-direction: column;
+        height: 768px;
 
         h2 {
             margin: 0;
@@ -35,25 +36,7 @@
             }
         }
         .low {
-            display: flex;
-            gap: 50px;
-            position: relative;
+            @extend .high;
             top: 73px;
-
-            .album {
-                height: 319px;
-
-                .name {
-                    margin: 18px 0 0;
-                    font-family: Roboto-Bold;
-                    line-height: 27px;
-                    font-size: 18px;
-                }
-                .year {
-                    margin: 0;
-                    line-height: 24px;
-                    font-size: 16px;
-                }
-            }
         }
 }
