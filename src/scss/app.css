@@ -427,6 +427,10 @@ h2 {
   margin: 0;
 }
 
+.marg_foot {
+  top: 100px;
+}
+
 .morten {
   background-image: url("/src/images/Morten Harket.png");
   background-position: center;
