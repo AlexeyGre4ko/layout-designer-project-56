@@ -24,8 +24,7 @@
             gap: 50px;
 
             .two_items {
-                display: flex;
-                gap: 50px;
+                @extend .items;
 
                 .item {
                     text-align: center;

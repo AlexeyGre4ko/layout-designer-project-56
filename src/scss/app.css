@@ -621,11 +621,7 @@ h2 {
 .page-similar .top_2 {
   margin-top: 25px;
 }
-.page-similar .items {
-  display: flex;
-  gap: 50px;
-}
-.page-similar .items .two_items {
+.page-similar .items, .page-similar .items .two_items {
   display: flex;
   gap: 50px;
 }
