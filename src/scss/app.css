@@ -432,7 +432,7 @@ h2 {
 }
 
 .morten {
-  background-image: url("/src/images/Morten Harket.png");
+  background-image: url("../images/Morten Harket.png");
   background-position: center;
   background-size: cover;
   height: 488px;
