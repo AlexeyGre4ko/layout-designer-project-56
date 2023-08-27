@@ -182,13 +182,13 @@ h2 {
   margin: 0;
 }
 .container .page-pricing .forms .free {
-  background-image: url("/src/images/subscribe_1.png");
+  background-image: url("../images/subscribe_1.png");
 }
 .container .page-pricing .forms .standart {
-  background-image: url("/src/images/subscribe_2.png");
+  background-image: url("../images/subscribe_2.png");
 }
 .container .page-pricing .forms .premium {
-  background-image: url("/src/images/subscribe_3.png");
+  background-image: url("../images/subscribe_3.png");
 }
 .container .page-pricing .subsc_parag {
   position: relative;
@@ -271,7 +271,7 @@ h2 {
   gap: 50px;
 }
 .page-news .eminem .em {
-  background-image: url("/src/images/Music to Be Murdered By.png");
+  background-image: url("../images/Music_to_Be_Murdered_By.png");
 }
 .page-news .ozzy {
   position: relative;
@@ -281,7 +281,7 @@ h2 {
   gap: 50px;
 }
 .page-news .ozzy .oz {
-  background-image: url("/src/images/Ordinary Man.png");
+  background-image: url("../images/Ordinary_Man.png");
 }
 
 .cont {
