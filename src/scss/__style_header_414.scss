@@ -52,13 +52,13 @@
             margin-top: 199px;
             text-align: center;
 
-            .title_p {
+            p {
                 top: 16px;
             }
 
             form {
                 @include flex_aling(column,center);
-                top: 48px;
+                top: 32px;
 
                 input {
                     width: 374px;

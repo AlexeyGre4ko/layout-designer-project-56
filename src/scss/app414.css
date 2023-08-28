@@ -73,13 +73,13 @@ h2 {
   margin-top: 199px;
   text-align: center;
 }
-.page-description .container .page-description_1 .title_p {
+.page-description .container .page-description_1 p {
   top: 16px;
 }
 .page-description .container .page-description_1 form {
   flex-direction: column;
   align-items: center;
-  top: 48px;
+  top: 32px;
 }
 .page-description .container .page-description_1 form input {
   width: 374px;
