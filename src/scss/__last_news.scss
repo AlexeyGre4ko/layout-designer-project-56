@@ -4,10 +4,11 @@
 }
 
 .page-news {
-    @include news_position(relative,160px);
+    @include news_position(relative,0);
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 842px;
 
     h2 {
         @include news_position(relative,100px);

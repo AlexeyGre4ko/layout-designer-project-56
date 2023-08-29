@@ -168,6 +168,7 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 908px;
 }
 .container .page-pricing h2 {
   position: relative;
@@ -255,10 +256,11 @@ h2 {
 
 .page-news {
   position: relative;
-  top: 160px;
+  top: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 842px;
 }
 .page-news h2 {
   position: relative;
@@ -333,9 +335,10 @@ h2 {
 
 .page-app {
   position: relative;
-  top: 360px;
+  top: 0;
   display: flex;
   flex-direction: column;
+  height: 583px;
 }
 .page-app h2 {
   position: relative;
@@ -372,7 +375,7 @@ h2 {
 
 .footer {
   position: relative;
-  top: 510px;
+  top: 0;
   height: 387px;
   background: linear-gradient(90deg, #5328A1 32.83%, #95390C 81.56%);
 }
