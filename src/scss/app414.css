@@ -44,7 +44,7 @@ h2 {
 
 .page-description {
   width: 374px;
-  height: 625px;
+  height: 603px;
   padding: 27px 20px 200px;
 }
 .page-description .container {
@@ -208,9 +208,12 @@ main .container .subsc_parag {
   padding-right: 0;
 }
 
+.morten {
+  height: 480px;
+}
+
 .page-description {
   width: 374px;
-  height: 480px;
   padding: 25px 20px 225px;
 }
 .page-description .container {
