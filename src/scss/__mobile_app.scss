@@ -7,8 +7,9 @@
 .page-app {
     @include mobile_position(relative,0,flex);
     flex-direction: column;
-    height: 483px;
+    height: 383px;
     padding: 100px 20px 0;
+    margin-bottom: 100px;
 
     h2 {
         @include mobile_position(relative,0px);
