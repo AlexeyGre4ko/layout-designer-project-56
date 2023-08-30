@@ -22,13 +22,13 @@
         height: 908px;
 
         h2 {
-            @include subscr_pos(relative,101px);
+            @include subscr_pos(relative,0px);
             color: $font-color;
             margin: 0;
         }
 
         .forms {
-            @include subscr_pos(relative,146px);
+            @include subscr_pos(relative,46px);
             display: flex;
             justify-content: space-between;
             width: 100%;
@@ -46,10 +46,11 @@
         }
 
         .subsc_parag {
-            @include subscr_pos(relative,189px);
+            @include subscr_pos(relative,86px);
             text-align: center;
             color: $font-color;
             margin: 0;
+            font-size: 16px;
         }
     }
 

@@ -1,13 +1,27 @@
 .page-app {
-    top: 520px;
+    height: 622px;
+    padding: 100px 20px;
 
     .mobile_cont {
         flex-direction: column-reverse;
-        gap: 16px;
-        width: 374px;
+        align-content: space-between;
+        gap: 0;
 
         .mobile_text {
+            margin: 0;
+            height: 184px;
             width: 374px;
+            position: relative;
+            top: 16px;
+        }
+        .download {
+            position: relative;
+            top: 31px;
+        }
+        .iphone {
+            width: 333px;
+            height: 278px;
+            margin: 0 auto;
         }
     }
 }

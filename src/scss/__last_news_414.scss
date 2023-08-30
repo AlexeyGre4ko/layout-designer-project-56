@@ -1,11 +1,17 @@
+.page-news {
+    height: 1116px;
+    padding: 100px 20px 0;
+}
+
 .eminem {
     flex-direction: column;
+    height: 492px;
 }
 
 .page-news > .ozzy {
     flex-direction: column;
     position: relative;
-    top: 297px;
+    top: 112px;
 }
 
 .cont {

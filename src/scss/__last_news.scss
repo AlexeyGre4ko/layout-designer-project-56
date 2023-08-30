@@ -11,15 +11,16 @@
     height: 842px;
 
     h2 {
-        @include news_position(relative,100px);
+        @include news_position(relative,0px);
         color: $font-color;
         margin: 0;
     }
 
     .eminem {
-        @include news_position(relative,148px);
+        @include news_position(relative,48px);
         display: flex;
         gap: 50px;
+        
 
         .em {
             background-image: url("../images/Music_to_Be_Murdered_By.png");
@@ -28,7 +29,7 @@
     }
 
     .ozzy {
-        @include news_position(relative,213px);
+        @include news_position(relative,131px);
         display: flex;
         flex-direction: row-reverse;
         gap: 50px;

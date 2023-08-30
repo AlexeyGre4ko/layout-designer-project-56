@@ -172,13 +172,13 @@ h2 {
 }
 .container .page-pricing h2 {
   position: relative;
-  top: 101px;
+  top: 0px;
   color: #ffffff;
   margin: 0;
 }
 .container .page-pricing .forms {
   position: relative;
-  top: 146px;
+  top: 46px;
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -195,10 +195,11 @@ h2 {
 }
 .container .page-pricing .subsc_parag {
   position: relative;
-  top: 189px;
+  top: 86px;
   text-align: center;
   color: #ffffff;
   margin: 0;
+  font-size: 16px;
 }
 .container .form_size {
   width: 370px;
@@ -264,13 +265,13 @@ h2 {
 }
 .page-news h2 {
   position: relative;
-  top: 100px;
+  top: 0px;
   color: #ffffff;
   margin: 0;
 }
 .page-news .eminem {
   position: relative;
-  top: 148px;
+  top: 48px;
   display: flex;
   gap: 50px;
 }
@@ -279,7 +280,7 @@ h2 {
 }
 .page-news .ozzy {
   position: relative;
-  top: 213px;
+  top: 131px;
   display: flex;
   flex-direction: row-reverse;
   gap: 50px;
@@ -342,7 +343,7 @@ h2 {
 }
 .page-app h2 {
   position: relative;
-  top: 100px;
+  top: 0px;
   display: block;
   text-align: center;
   color: #ffffff;
@@ -350,10 +351,9 @@ h2 {
 }
 .page-app .mobile_cont {
   position: relative;
-  top: 148px;
+  top: 48px;
   display: flex;
   gap: 144px;
-  padding-bottom: 100px;
 }
 .page-app .mobile_cont .mobile_text {
   width: 600px;
@@ -366,6 +366,8 @@ h2 {
   border-radius: 32px;
   font-size: 12.8px;
   font-family: "Roboto";
+  position: relative;
+  top: 15px;
 }
 
 .footer .info .about_us .content, .footer .info .about_us {

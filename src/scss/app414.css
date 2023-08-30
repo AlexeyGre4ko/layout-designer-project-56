@@ -90,52 +90,59 @@ h2 {
 }
 
 main {
-  padding: 0 20px;
+  padding: 0 0;
 }
 main .container {
-  width: 374px;
+  width: 414px;
   margin: 0;
 }
-main .container h2 {
+main .container .page-pricing {
+  height: 2120px;
+  padding: 100px 20px 0;
+}
+main .container .page-pricing h2 {
   font-size: 18px;
 }
-main .container .forms {
+main .container .page-pricing .forms {
   flex-direction: column;
   align-items: center;
   gap: 26px;
 }
-main .container .forms .form_size {
+main .container .page-pricing .forms .form_size {
   width: 100%;
   height: 621px;
   background-position: top;
 }
-main .container .forms .form_size .form_type {
+main .container .page-pricing .forms .form_size .form_type {
   font-size: 16px;
   text-transform: uppercase;
   text-align: center;
 }
-main .container .forms .form_size .price {
+main .container .page-pricing .forms .form_size .price {
   top: 179px;
 }
-main .container .forms .form_size button {
+main .container .page-pricing .forms .form_size button {
   width: 326px;
   top: 220px;
 }
-main .container .forms .form_size .form_parag {
+main .container .page-pricing .forms .form_size .form_parag {
   top: 284px;
 }
-main .container .subsc_parag {
-  top: 169px;
+
+.page-news {
+  height: 1116px;
+  padding: 100px 20px 0;
 }
 
 .eminem {
   flex-direction: column;
+  height: 492px;
 }
 
 .page-news > .ozzy {
   flex-direction: column;
   position: relative;
-  top: 297px;
+  top: 112px;
 }
 
 .cont {
@@ -160,19 +167,32 @@ main .container .subsc_parag {
 }
 
 .page-app {
-  top: 520px;
+  height: 622px;
+  padding: 100px 20px;
 }
 .page-app .mobile_cont {
   flex-direction: column-reverse;
-  gap: 16px;
-  width: 374px;
+  align-content: space-between;
+  gap: 0;
 }
 .page-app .mobile_cont .mobile_text {
+  margin: 0;
+  height: 184px;
   width: 374px;
+  position: relative;
+  top: 16px;
+}
+.page-app .mobile_cont .download {
+  position: relative;
+  top: 31px;
+}
+.page-app .mobile_cont .iphone {
+  width: 333px;
+  height: 278px;
+  margin: 0 auto;
 }
 
 .footer {
-  top: 665px;
   height: 957px;
 }
 .footer .container {
@@ -183,13 +203,16 @@ main .container .subsc_parag {
   gap: 30px;
 }
 .footer .container .shop {
-  top: 167px;
+  top: 175px;
   flex-direction: column;
   align-items: start;
   gap: 16px;
 }
 .footer .container .shop .p_footer {
   margin: 0;
+}
+.footer .white_line {
+  top: 135px;
 }
 
 .marg_foot {
