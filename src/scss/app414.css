@@ -128,6 +128,9 @@ main .container .page-pricing .forms .form_size button {
 main .container .page-pricing .forms .form_size .form_parag {
   top: 284px;
 }
+main .container .page-pricing .subsc_parag {
+  height: 120px;
+}
 
 .page-news {
   height: 1116px;
