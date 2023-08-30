@@ -7,7 +7,8 @@
 .page-app {
     @include mobile_position(relative,0,flex);
     flex-direction: column;
-    height: 583px;
+    height: 483px;
+    padding: 100px 20px 0;
 
     h2 {
         @include mobile_position(relative,0px);
@@ -19,9 +20,10 @@
     .mobile_cont {
         @include mobile_position(relative,48px,flex);
         gap: 144px;
-        
+
         .mobile_text {
             width: 600px;
+            height: 112px;
         }
 
         .download {
@@ -32,8 +34,6 @@
             border-radius: 32px;
             font-size: 12.8px;
             font-family: 'Roboto';
-            position: relative;
-            top: 15px;
         }
 
 

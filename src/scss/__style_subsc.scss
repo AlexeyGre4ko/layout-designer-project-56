@@ -12,14 +12,15 @@
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1240px;
     margin: 0 auto;
 
     .page-pricing {
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 908px;
+        height: 808px;
+        padding: 100px 20px 0;
 
         h2 {
             @include subscr_pos(relative,0px);
@@ -28,7 +29,7 @@
         }
 
         .forms {
-            @include subscr_pos(relative,46px);
+            @include subscr_pos(relative,45px);
             display: flex;
             justify-content: space-between;
             width: 100%;

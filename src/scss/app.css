@@ -161,14 +161,15 @@ h2 {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1240px;
   margin: 0 auto;
 }
 .container .page-pricing {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 908px;
+  height: 808px;
+  padding: 100px 20px 0;
 }
 .container .page-pricing h2 {
   position: relative;
@@ -178,7 +179,7 @@ h2 {
 }
 .container .page-pricing .forms {
   position: relative;
-  top: 46px;
+  top: 45px;
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -262,7 +263,8 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 842px;
+  height: 742px;
+  padding: 83px 20px 0;
 }
 .page-news h2 {
   position: relative;
@@ -281,7 +283,7 @@ h2 {
 }
 .page-news .ozzy {
   position: relative;
-  top: 131px;
+  top: 113px;
   display: flex;
   flex-direction: row-reverse;
   gap: 50px;
@@ -340,7 +342,8 @@ h2 {
   top: 0;
   display: flex;
   flex-direction: column;
-  height: 583px;
+  height: 483px;
+  padding: 100px 20px 0;
 }
 .page-app h2 {
   position: relative;
@@ -358,6 +361,7 @@ h2 {
 }
 .page-app .mobile_cont .mobile_text {
   width: 600px;
+  height: 112px;
 }
 .page-app .mobile_cont .download {
   width: 131px;
@@ -367,8 +371,6 @@ h2 {
   border-radius: 32px;
   font-size: 12.8px;
   font-family: "Roboto";
-  position: relative;
-  top: 15px;
 }
 
 .footer .info .about_us .content, .footer .info .about_us {

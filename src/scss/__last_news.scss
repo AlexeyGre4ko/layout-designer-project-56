@@ -8,7 +8,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 842px;
+    height: 742px;
+    padding: 83px 20px 0;
 
     h2 {
         @include news_position(relative,0px);
@@ -20,7 +21,7 @@
         @include news_position(relative,48px);
         display: flex;
         gap: 50px;
-        
+
 
         .em {
             background-image: url("../images/Music_to_Be_Murdered_By.png");
@@ -29,7 +30,7 @@
     }
 
     .ozzy {
-        @include news_position(relative,131px);
+        @include news_position(relative,113px);
         display: flex;
         flex-direction: row-reverse;
         gap: 50px;
