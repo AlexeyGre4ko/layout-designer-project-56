@@ -196,7 +196,7 @@ h2 {
 }
 .container .page-pricing .subsc_parag {
   position: relative;
-  top: 89px;
+  top: 88px;
   text-align: center;
   color: #ffffff;
   margin: 0;
@@ -376,7 +376,7 @@ h2 {
   font-family: "Roboto";
 }
 
-.footer .info .about_us .content, .footer .info .about_us {
+.footer .container_footer .info .about_us .content, .footer .container_footer .info .about_us {
   display: flex;
   flex-direction: column;
 }
@@ -387,46 +387,48 @@ h2 {
   height: 387px;
   background: linear-gradient(90deg, #5328A1 32.83%, #95390C 81.56%);
 }
-.footer .white_line {
-  position: relative;
-  top: 132px;
-  height: 2px;
-  background-color: #cacaca;
+.footer .container_footer {
+  max-width: 1200px;
+  padding: 63px 20px 0;
+  margin: 0 auto;
 }
-.footer .info {
-  position: relative;
-  top: 62px;
-  height: 100%;
+.footer .container_footer .info {
   display: flex;
   justify-content: space-between;
 }
-.footer .info .about_us {
+.footer .container_footer .info .about_us {
   gap: 15px;
   width: 270px;
 }
-.footer .info .about_us > p {
+.footer .container_footer .info .about_us > p {
   font-size: 18px;
   color: #ffffff;
   font-family: "Roboto-Bold";
   text-transform: uppercase;
   margin: 0;
 }
-.footer .info .about_us .content p {
+.footer .container_footer .info .about_us .content p {
   font-size: 16px;
   color: #E0E0E0;
   margin: 0;
 }
-.footer .info .about_us .content_logos {
+.footer .container_footer .info .about_us .content_logos {
   display: flex;
   gap: 24px;
 }
-.footer .info .about_us .content_logos img {
+.footer .container_footer .info .about_us .content_logos img {
   width: 26px;
   height: 17px;
 }
-.footer .shop {
+.footer .container_footer-1 {
+  max-width: 1200px;
+  padding: 63px 20px 0;
+  margin: 0 auto;
   position: relative;
-  top: 172px;
+}
+.footer .container_footer-1 .shop {
+  position: relative;
+  top: 50px;
   height: 24px;
   display: flex;
   gap: 16px;
@@ -434,10 +436,16 @@ h2 {
   color: #E0E0E0;
   align-items: center;
 }
-.footer .shop p {
+.footer .container_footer-1 .shop p {
   font-size: 16px;
   color: #E0E0E0;
   margin: 0;
+}
+.footer .white_line {
+  position: relative;
+  top: 72px;
+  height: 2px;
+  background-color: #cacaca;
 }
 
 .marg_foot {

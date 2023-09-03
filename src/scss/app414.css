@@ -129,6 +129,9 @@ main .container .page-pricing .forms .form_size .form_parag {
   top: 292px;
   width: 326px;
 }
+main .container .page-pricing .forms .free {
+  height: 598px;
+}
 main .container .page-pricing .subsc_parag {
   height: 120px;
 }
@@ -199,24 +202,27 @@ main .container .page-pricing .subsc_parag {
 .footer {
   height: 957px;
 }
-.footer .container {
-  padding: 0 20px;
+.footer .container_footer {
+  padding: 62px 20px 0;
 }
-.footer .container .info {
+.footer .container_footer .info {
   flex-direction: column;
   gap: 30px;
 }
-.footer .container .shop {
-  top: 175px;
+.footer .container_footer-1 {
+  padding: 0 20px;
+}
+.footer .container_footer-1 .shop {
+  top: 114px;
   flex-direction: column;
   align-items: start;
   gap: 16px;
 }
-.footer .container .shop .p_footer {
+.footer .container_footer-1 .shop .p_footer {
   margin: 0;
 }
 .footer .white_line {
-  top: 135px;
+  top: 75px;
 }
 
 .marg_foot {

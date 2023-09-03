@@ -1,15 +1,19 @@
 .footer {
     height: 957px;
 
-    .container {
-        padding: 0 20px;
+    .container_footer {
+        padding: 62px 20px 0;
 
         .info {
             flex-direction: column;
             gap: 30px;
         }
+    }
+    .container_footer-1 {
+        padding: 0 20px;
+
         .shop {
-            top: 175px;
+            top: 114px;
             flex-direction: column;
             align-items: start;
             gap: 16px;
@@ -21,7 +25,7 @@
         }
     }
     .white_line {
-        top: 135px;
+        top: 75px;
     }
 }
 .marg_foot {

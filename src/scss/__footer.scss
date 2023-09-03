@@ -21,57 +21,68 @@
     @include footer(relative,0,387px);
     background: linear-gradient(90deg, $bg-grad1 32.83%, $bg-grad2 81.56%);
 
-    .white_line {
-        @include footer(relative,132px,2px);
-        background-color: $font-nav;
-    }
+    .container_footer {
+        max-width: 1200px;
+        padding: 63px 20px 0;
+        margin: 0 auto;
 
-    .info {
-        @include footer(relative,62px);
-        display: flex;
-        justify-content: space-between;
+        .info {
+            display: flex;
+            justify-content: space-between;
 
-        .about_us {
-            @extend %flex_column;
-            gap: 15px;
-            width: 270px;
-
-            >p {
-                @include font_size_color(18px,$font-color);
-                font-family: 'Roboto-Bold';
-                text-transform: uppercase;
-                margin: 0;
-            }
-
-            .content {
+            .about_us {
                 @extend %flex_column;
+                gap: 15px;
+                width: 270px;
 
-                p {
-                    @include font_size_color();
+                >p {
+                    @include font_size_color(18px,$font-color);
+                    font-family: 'Roboto-Bold';
+                    text-transform: uppercase;
                     margin: 0;
                 }
-            }
 
-            .content_logos {
-                @include flex_gap(flex,24px);
+                .content {
+                    @extend %flex_column;
 
-                img {
-                    width: 26px;
-                    height: 17px;
+                    p {
+                        @include font_size_color();
+                        margin: 0;
+                    }
+                }
+
+                .content_logos {
+                    @include flex_gap(flex,24px);
+
+                    img {
+                        width: 26px;
+                        height: 17px;
+                    }
                 }
             }
         }
     }
-    .shop {
-        @include footer(relative,172px,24px);
-        @include flex_gap(flex,16px);
-        @include font_size_color();
-        align-items: center;
+    .container_footer-1{
+        max-width: 1200px;
+        padding: 63px 20px 0;
+        margin: 0 auto;
+        position: relative;
 
-        p {
+        .shop {
+            @include footer(relative,50px,24px);
+            @include flex_gap(flex,16px);
             @include font_size_color();
-            margin: 0;
+            align-items: center;
+
+            p {
+                @include font_size_color();
+                margin: 0;
+            }
         }
+    }
+    .white_line {
+        @include footer(relative,72px,2px);
+        background-color: $font-nav;
     }
 
 }
