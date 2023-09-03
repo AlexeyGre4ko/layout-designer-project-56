@@ -237,7 +237,7 @@ h2 {
 .container .form_size button {
   position: relative;
   top: 216px;
-  left: 22px;
+  left: 24px;
   width: 318px;
   height: 66px;
   background-color: transparent;
@@ -246,6 +246,7 @@ h2 {
   text-transform: uppercase;
   font-size: 16px;
   border-radius: 5px;
+  padding: 0;
 }
 .container .form_size .form_parag {
   position: relative;
