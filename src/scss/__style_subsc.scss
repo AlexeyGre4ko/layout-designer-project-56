@@ -31,7 +31,7 @@
         .forms {
             @include subscr_pos(relative,45px);
             display: flex;
-            justify-content: space-between;
+            gap: 50px;
             width: 100%;
             margin: 0;
 
