@@ -1,6 +1,6 @@
 .page-similar {
     width: 374px;
-    padding: 100px 20px 0;
+    padding: 100px 20px;
     height: 1070px;
 
     h2 {
@@ -11,7 +11,6 @@
         display: flex;
         flex-wrap: wrap;
         gap: 25px;
-        height: 485px;
 
         .two_items {
             display: flex;
@@ -19,6 +18,7 @@
 
             .item {
                 text-align: center;
+                height: 230px;
 
                 img {
                     width: 137px;

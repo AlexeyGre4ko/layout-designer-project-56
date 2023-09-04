@@ -331,7 +331,7 @@ main .container .page-pricing .subsc_parag {
 
 .page-similar {
   width: 374px;
-  padding: 100px 20px 0;
+  padding: 100px 20px;
   height: 1070px;
 }
 .page-similar h2 {
@@ -341,7 +341,6 @@ main .container .page-pricing .subsc_parag {
   display: flex;
   flex-wrap: wrap;
   gap: 25px;
-  height: 485px;
 }
 .page-similar .items .two_items {
   display: flex;
@@ -349,6 +348,7 @@ main .container .page-pricing .subsc_parag {
 }
 .page-similar .items .two_items .item {
   text-align: center;
+  height: 230px;
 }
 .page-similar .items .two_items .item img {
   width: 137px;
