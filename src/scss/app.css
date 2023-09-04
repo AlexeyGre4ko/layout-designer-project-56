@@ -448,10 +448,6 @@ h2 {
   background-color: #cacaca;
 }
 
-.marg_foot {
-  top: 100px;
-}
-
 .morten {
   background-image: url("../images/Morten Harket.png");
   background-position: center;
@@ -521,14 +517,14 @@ h2 {
 .page-popular-track {
   color: #ffffff;
   margin: 0 auto;
-  padding-top: 100px;
+  padding: 100px 20px 0;
   display: flex;
   flex-direction: column;
   height: 320px;
 }
 @media only screen and (min-width: 1240px) {
   .page-popular-track {
-    max-width: 1200px;
+    max-width: 1240px;
   }
 }
 .page-popular-track h2 {
@@ -579,19 +575,20 @@ h2 {
   flex-grow: 1;
   display: flex;
   justify-content: end;
+  font-size: 12.8px;
 }
 
 .page-discography {
   color: #ffffff;
   margin: 0 auto;
-  padding-top: 100px;
+  padding: 100px 20px 0;
   display: flex;
   flex-direction: column;
   height: 768px;
 }
 @media only screen and (min-width: 1240px) {
   .page-discography {
-    max-width: 1200px;
+    max-width: 1240px;
   }
 }
 .page-discography h2 {
@@ -624,13 +621,14 @@ h2 {
 .page-similar {
   color: #ffffff;
   margin: 0 auto;
-  padding-top: 100px;
+  padding: 100px 20px;
   display: flex;
   flex-direction: column;
+  height: 768px;
 }
 @media only screen and (min-width: 1240px) {
   .page-similar {
-    max-width: 1200px;
+    max-width: 1240px;
   }
 }
 .page-similar h2 {

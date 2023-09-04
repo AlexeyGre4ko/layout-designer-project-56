@@ -1,12 +1,13 @@
 .page-similar {
     @media only screen and (min-width: 1240px) {
-        max-width: 1200px;
+        max-width: 1240px;
         }
         color: $font-color;
         margin: 0 auto;
-        padding-top: 100px;
+        padding: 100px 20px;
         display: flex;
         flex-direction: column;
+        height: 768px;
 
         h2 {
             margin: 0;
