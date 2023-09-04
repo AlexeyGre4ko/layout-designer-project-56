@@ -646,6 +646,7 @@ h2 {
 }
 .page-similar .items .two_items .item {
   text-align: center;
+  height: 319px;
 }
 .page-similar .items .two_items .item img {
   border-radius: 125px;
