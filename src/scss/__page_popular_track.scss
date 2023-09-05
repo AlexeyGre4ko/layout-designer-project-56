@@ -18,17 +18,18 @@
         .tracks {
             width: 1152px;
             display: flex;
-            gap: 50px;
+            gap: 25px;
             height: 215px;
             top: 48px;
             position: relative;
+            flex-direction: column;
 
             .left {
                 display: flex;
-                flex-wrap: wrap;
+                gap: 50px;
                 align-content: space-between;
-                width: 551px;
-
+                flex-direction: row;
+                
                 .track {
                     width: 551px;
                     height: 55px;
