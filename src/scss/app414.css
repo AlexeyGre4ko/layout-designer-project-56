@@ -293,6 +293,7 @@ main .container .page-pricing .subsc_parag {
 }
 .page-popular-track .tracks .left {
   gap: 25px;
+  flex-direction: column;
 }
 .page-popular-track .tracks .left .track {
   width: 374px;
