@@ -2,18 +2,27 @@
     height: 957px;
 
     .container_footer {
-        padding: 62px 20px 0;
+        padding: 62px 20px 76px;
+        height: 548px;
 
         .info {
             flex-direction: column;
             gap: 30px;
+
+            .about_logos {
+                gap: 21px;
+            }
         }
     }
+    .white_line {
+        top: 0;
+    }
     .container_footer-1 {
-        padding: 0 20px;
+        padding: 40px 20px 47px;
+        height: 184px;
 
         .shop {
-            top: 114px;
+            top: 0;
             flex-direction: column;
             align-items: start;
             gap: 16px;
@@ -23,8 +32,5 @@
             }
 
         }
-    }
-    .white_line {
-        top: 75px;
     }
 }
