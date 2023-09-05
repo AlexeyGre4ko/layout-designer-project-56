@@ -328,6 +328,9 @@ main .container .page-pricing .subsc_parag {
   font-size: 18px;
   width: 139px;
 }
+.page-discography .high .album .name_1, .page-discography .low .album .name_1 {
+  width: 145px;
+}
 .page-discography .high .album .year, .page-discography .low .album .year {
   font-size: 16px;
 }
