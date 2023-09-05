@@ -595,28 +595,49 @@ h2 {
 .page-discography h2 {
   margin: 0;
 }
-.page-discography .high, .page-discography .low {
+.page-discography .high_1 {
+  display: flex;
+  gap: 50px;
+}
+.page-discography .high_1 .high, .page-discography .high_1 .medium {
   display: flex;
   gap: 50px;
   position: relative;
   top: 48px;
 }
-.page-discography .high .album, .page-discography .low .album {
+.page-discography .high_1 .high .album, .page-discography .high_1 .medium .album {
   height: 319px;
 }
-.page-discography .high .album .name, .page-discography .low .album .name {
+.page-discography .high_1 .high .album .name, .page-discography .high_1 .medium .album .name {
   margin: 18px 0 0;
   font-family: Roboto-Bold;
   line-height: 27px;
   font-size: 18px;
 }
-.page-discography .high .album .year, .page-discography .low .album .year {
+.page-discography .high_1 .high .album .year, .page-discography .high_1 .medium .album .year {
   margin: 0;
   line-height: 24px;
   font-size: 16px;
 }
 .page-discography .low {
+  display: flex;
+  gap: 50px;
+  position: relative;
   top: 73px;
+}
+.page-discography .low .album {
+  height: 319px;
+}
+.page-discography .low .album .name {
+  margin: 18px 0 0;
+  font-family: Roboto-Bold;
+  line-height: 27px;
+  font-size: 18px;
+}
+.page-discography .low .album .year {
+  margin: 0;
+  line-height: 24px;
+  font-size: 16px;
 }
 
 .page-similar {

@@ -312,30 +312,57 @@ main .container .page-pricing .subsc_parag {
 .page-discography h2 {
   font-size: 18px;
 }
-.page-discography .high, .page-discography .low {
-  flex-wrap: wrap;
+.page-discography .high_1 {
+  flex-direction: column;
   gap: 25px;
+  position: relative;
+  top: 48px;
+  height: 464px;
 }
-.page-discography .high .album, .page-discography .low .album {
+.page-discography .high_1 .high, .page-discography .high_1 .medium {
+  flex-wrap: wrap;
+  gap: 50px;
+  top: 0;
+}
+.page-discography .high_1 .high .album, .page-discography .high_1 .medium .album {
   height: 206px;
   width: 137px;
 }
-.page-discography .high .album img, .page-discography .low .album img {
+.page-discography .high_1 .high .album img, .page-discography .high_1 .medium .album img {
   height: 137px;
   width: 137px;
 }
-.page-discography .high .album .name, .page-discography .low .album .name {
+.page-discography .high_1 .high .album .name, .page-discography .high_1 .medium .album .name {
   font-size: 18px;
-  width: 139px;
+  width: 130px;
 }
-.page-discography .high .album .name_1, .page-discography .low .album .name_1 {
+.page-discography .high_1 .high .album .name_1, .page-discography .high_1 .medium .album .name_1 {
   width: 145px;
 }
-.page-discography .high .album .year, .page-discography .low .album .year {
+.page-discography .high_1 .high .album .year, .page-discography .high_1 .medium .album .year {
   font-size: 16px;
 }
 .page-discography .low {
-  top: 105px;
+  top: 75px;
+  height: 233px;
+}
+.page-discography .low .album {
+  height: 206px;
+  width: 137px;
+}
+.page-discography .low .album img {
+  height: 137px;
+  width: 137px;
+}
+.page-discography .low .album .name {
+  font-size: 18px;
+  width: 130px;
+}
+.page-discography .low .album .name_1 {
+  width: 145px;
+}
+.page-discography .low .album .year {
+  font-size: 16px;
 }
 
 .page-similar {
