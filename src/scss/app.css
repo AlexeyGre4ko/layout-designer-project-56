@@ -459,12 +459,13 @@ h2 {
   background-image: url("../images/Morten Harket.png");
   background-position: center;
   background-size: cover;
-  padding: 25px 0 200px;
-  height: 525px;
+  height: 713px;
 }
 .page-description .container {
-  max-width: 1200px;
+  max-width: 1240px;
   margin: 0 auto;
+  padding: 25px 20px 223px;
+  height: 462px;
 }
 .page-description .container .menu {
   display: flex;
@@ -535,7 +536,7 @@ h2 {
   max-width: 424px;
   flex-wrap: wrap;
   position: relative;
-  top: 72px;
+  top: 64px;
 }
 .page-description .container .page-description_2 form .btn {
   min-width: 200px;
