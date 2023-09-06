@@ -258,7 +258,9 @@ main .container .page-pricing .subsc_parag {
 }
 .page-description .container {
   width: 374px;
+  height: 481px;
   margin: 0;
+  padding: 0;
 }
 .page-description .container .menu {
   flex-direction: column;
