@@ -20,18 +20,18 @@ body {
   margin: 0;
 }
 
-.page-description {
+.page-description_3 {
   background-image: url("../images/banner.png");
   background-position: center;
   background-size: cover;
   padding: 25px 0 200px;
   height: 525px;
 }
-.page-description .container {
+.page-description_3 .container {
   max-width: 1200px;
   margin: 0 auto;
 }
-.page-description .container .menu {
+.page-description_3 .container .menu {
   display: flex;
   gap: 2.5%;
   align-items: center;
@@ -41,7 +41,7 @@ body {
   text-transform: uppercase;
   font-family: "Roboto";
 }
-.page-description .container .menu .logo {
+.page-description_3 .container .menu .logo {
   display: flex;
   gap: 15%;
   flex-grow: 0.2;
@@ -49,16 +49,16 @@ body {
   align-items: center;
   color: #ffffff;
 }
-.page-description .container .menu nav {
+.page-description_3 .container .menu nav {
   flex-grow: 0.9;
   color: #cacaca;
 }
-.page-description .container .menu nav ul {
+.page-description_3 .container .menu nav ul {
   display: flex;
   gap: 3%;
   list-style: none;
 }
-.page-description .container .menu input {
+.page-description_3 .container .menu input {
   width: 248px;
   height: 25px;
   background-color: #3c3b3d;
@@ -69,7 +69,7 @@ body {
   text-transform: uppercase;
   font-family: "Arial";
 }
-.page-description .container .page-description_1 {
+.page-description_3 .container .page-description_1 {
   margin-top: 150px;
   color: #ffffff;
   display: flex;
@@ -77,25 +77,25 @@ body {
   align-items: center;
 }
 @media only screen and (min-width: 1240px) {
-  .page-description .container .page-description_1 {
+  .page-description_3 .container .page-description_1 {
     max-width: 1200px;
   }
 }
-.page-description .container .page-description_1 h1 {
+.page-description_3 .container .page-description_1 h1 {
   margin: 0;
   font-family: "Roboto-Bold";
 }
-.page-description .container .page-description_1 h2 {
+.page-description_3 .container .page-description_1 h2 {
   margin: 0;
   font-family: "Roboto-Bold";
 }
-.page-description .container .page-description_1 p {
+.page-description_3 .container .page-description_1 p {
   margin: 0;
   position: relative;
   top: 31px;
   font-size: 16px;
 }
-.page-description .container .page-description_1 form {
+.page-description_3 .container .page-description_1 form {
   display: flex;
   gap: 24px;
   max-width: 570px;
@@ -103,7 +103,7 @@ body {
   position: relative;
   top: 48px;
 }
-.page-description .container .page-description_1 form input {
+.page-description_3 .container .page-description_1 form input {
   min-width: 273px;
   min-height: 50px;
   padding-left: 20px;
@@ -112,12 +112,12 @@ body {
   box-sizing: border-box;
   background: transparent;
 }
-.page-description .container .page-description_1 form input::placeholder {
+.page-description_3 .container .page-description_1 form input::placeholder {
   color: #ffffff;
   font-family: "Roboto-Bold";
   font-size: 14px;
 }
-.page-description .container .page-description_1 form .submit {
+.page-description_3 .container .page-description_1 form .submit {
   width: 570px;
   height: 57px;
   background-color: #34c176;

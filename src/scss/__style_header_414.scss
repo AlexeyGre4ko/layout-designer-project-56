@@ -13,18 +13,20 @@
     align-items: $fb;
 }
 
-.page-description {
+.page-description_3 {
     width: 374px;
-    height: 603px;
-    padding: 27px 20px 200px;
+    height: 625px;
+    padding: 27px 20px 201px;
 
     .container {
         width: 374px;
         margin: 0;
+        height: 625px;
 
         .menu {
             @include flex_aling(column,start);
             gap: 17px;
+            height: 145px;
 
             .logo {
                 width: 100%;
@@ -38,8 +40,12 @@
 
                 ul {
                     @include flex_aling(column,start);
-                    gap: 3px;
                     @extend %mar_pad;
+                    height: 61px;
+
+                    li {
+                        height: 13px;
+                    }
                 }
             }
 
@@ -49,8 +55,9 @@
         }
 
         .page-description_1 {
-            margin-top: 199px;
+            margin-top: 78px;
             text-align: center;
+            height: 402px;
 
             p {
                 top: 16px;
