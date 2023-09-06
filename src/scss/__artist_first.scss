@@ -3,67 +3,111 @@
     background-position: center;
     background-size: cover;
     height: 488px;
+}
 
-    .page-description_2 {
+.page-description {
+    background-image: url("../images/Morten Harket.png");
+    background-position: center;
+    background-size: cover;
+    padding: 25px 0 200px;
+    height: 525px;
 
-        @media only screen and (min-width: 1240px) {
+    .container {
         max-width: 1200px;
-        }
-        margin-top: 200px;
-        color: $font-color;
-        display: flex;
-        flex-direction: column;
+        margin: 0 auto;
 
-        h1 {
-            margin: 0;
-            font-family: 'Roboto-Bold';
-        }
+        .menu {
+            @include display_gap(flex,2.5%);
+            align-items: center;
+            height: 25px;
+            padding: 0;
+            font-size: 11px;
+            text-transform: uppercase;
+            font-family: 'Roboto';
 
-        h2 {
-            margin: 0;
-            font-family: 'Roboto-Bold';
-        }
-
-        p {
-            margin:0;
-            position: relative;
-            top: 16px;
-            font-size: 16px;
-        }
-
-        form {
-            @include display_gap(flex,24px);
-            max-width: 424px;
-            flex-wrap: wrap;
-            position: relative;
-            top: 72px;
-
-            .btn {
-                min-width: 200px;
-                min-height: 62px;
-                padding-left: 31px;
-                border-radius: 5px;
-                box-sizing: border-box;
-                font-size: 12.8px;
-                color: $font-color;
-                font-family: 'Roboto';
-                text-transform: uppercase;
-                display: flex;
+            .logo {
+                @include display_gap(flex,15%);
+                flex-grow: 0.2;
+                width: 25px;
                 align-items: center;
-                gap: 16px;
-                padding-top: 0;
-                padding-bottom: 0;
+                color: $font-color;
+            }
 
-                svg {
-                    width: 20px;
-                    height: 20px;
+            nav {
+                flex-grow: 0.9;
+                color: $font-nav;
+
+                ul {
+                    @include display_gap(flex,3%);
+                    list-style: none;
                 }
             }
-            .purple {
-                background-color: $bg-grad1;
+            input {
+                @include w_h(248px,25px,$bg-search,50px,5px 180px 5px 10px,$font-color-dark,13.3px,uppercase);
+                font-family: 'Arial';
             }
-            .red {
-                background-color: $bg-grad2;
+        }
+        .page-description_2 {
+
+            @media only screen and (min-width: 1240px) {
+            max-width: 1200px;
+            }
+            margin-top: 200px;
+            color: $font-color;
+            display: flex;
+            flex-direction: column;
+
+            h1 {
+                margin: 0;
+                font-family: 'Roboto-Bold';
+            }
+
+            h2 {
+                margin: 0;
+                font-family: 'Roboto-Bold';
+            }
+
+            p {
+                margin:0;
+                position: relative;
+                top: 16px;
+                font-size: 16px;
+            }
+
+            form {
+                @include display_gap(flex,24px);
+                max-width: 424px;
+                flex-wrap: wrap;
+                position: relative;
+                top: 72px;
+
+                .btn {
+                    min-width: 200px;
+                    min-height: 62px;
+                    padding-left: 31px;
+                    border-radius: 5px;
+                    box-sizing: border-box;
+                    font-size: 12.8px;
+                    color: $font-color;
+                    font-family: 'Roboto';
+                    text-transform: uppercase;
+                    display: flex;
+                    align-items: center;
+                    gap: 16px;
+                    padding-top: 0;
+                    padding-bottom: 0;
+
+                    svg {
+                        width: 20px;
+                        height: 20px;
+                    }
+                }
+                .purple {
+                    background-color: $bg-grad1;
+                }
+                .red {
+                    background-color: $bg-grad2;
+                }
             }
         }
     }

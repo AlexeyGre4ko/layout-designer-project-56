@@ -454,32 +454,82 @@ h2 {
   background-size: cover;
   height: 488px;
 }
-.morten .page-description_2 {
+
+.page-description {
+  background-image: url("../images/Morten Harket.png");
+  background-position: center;
+  background-size: cover;
+  padding: 25px 0 200px;
+  height: 525px;
+}
+.page-description .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.page-description .container .menu {
+  display: flex;
+  gap: 2.5%;
+  align-items: center;
+  height: 25px;
+  padding: 0;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-family: "Roboto";
+}
+.page-description .container .menu .logo {
+  display: flex;
+  gap: 15%;
+  flex-grow: 0.2;
+  width: 25px;
+  align-items: center;
+  color: #ffffff;
+}
+.page-description .container .menu nav {
+  flex-grow: 0.9;
+  color: #cacaca;
+}
+.page-description .container .menu nav ul {
+  display: flex;
+  gap: 3%;
+  list-style: none;
+}
+.page-description .container .menu input {
+  width: 248px;
+  height: 25px;
+  background-color: #3c3b3d;
+  border-radius: 50px;
+  padding: 5px 180px 5px 10px;
+  color: #757575;
+  font-size: 13.3px;
+  text-transform: uppercase;
+  font-family: "Arial";
+}
+.page-description .container .page-description_2 {
   margin-top: 200px;
   color: #ffffff;
   display: flex;
   flex-direction: column;
 }
 @media only screen and (min-width: 1240px) {
-  .morten .page-description_2 {
+  .page-description .container .page-description_2 {
     max-width: 1200px;
   }
 }
-.morten .page-description_2 h1 {
+.page-description .container .page-description_2 h1 {
   margin: 0;
   font-family: "Roboto-Bold";
 }
-.morten .page-description_2 h2 {
+.page-description .container .page-description_2 h2 {
   margin: 0;
   font-family: "Roboto-Bold";
 }
-.morten .page-description_2 p {
+.page-description .container .page-description_2 p {
   margin: 0;
   position: relative;
   top: 16px;
   font-size: 16px;
 }
-.morten .page-description_2 form {
+.page-description .container .page-description_2 form {
   display: flex;
   gap: 24px;
   max-width: 424px;
@@ -487,7 +537,7 @@ h2 {
   position: relative;
   top: 72px;
 }
-.morten .page-description_2 form .btn {
+.page-description .container .page-description_2 form .btn {
   min-width: 200px;
   min-height: 62px;
   padding-left: 31px;
@@ -503,14 +553,14 @@ h2 {
   padding-top: 0;
   padding-bottom: 0;
 }
-.morten .page-description_2 form .btn svg {
+.page-description .container .page-description_2 form .btn svg {
   width: 20px;
   height: 20px;
 }
-.morten .page-description_2 form .purple {
+.page-description .container .page-description_2 form .purple {
   background-color: #5328A1;
 }
-.morten .page-description_2 form .red {
+.page-description .container .page-description_2 form .red {
   background-color: #95390C;
 }
 
