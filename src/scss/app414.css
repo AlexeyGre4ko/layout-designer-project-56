@@ -60,16 +60,22 @@ h2 {
 }
 .page-description_3 .container .menu .logo {
   width: 100%;
-  height: 24px;
+  height: 22px;
   gap: 4%;
+}
+.page-description_3 .container .menu .logo p {
+  height: 13px;
+  margin: 6px 0;
 }
 .page-description_3 .container .menu nav {
   position: relative;
+  height: 48px;
 }
 .page-description_3 .container .menu nav ul {
   flex-direction: column;
   align-items: start;
   height: 61px;
+  gap: 3px;
 }
 .page-description_3 .container .menu nav ul li {
   height: 13px;
