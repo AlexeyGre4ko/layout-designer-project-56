@@ -190,8 +190,9 @@ main .container .page-pricing .subsc_parag {
 }
 .page-app .mobile_cont {
   flex-direction: column-reverse;
-  align-content: space-between;
   gap: 0;
+  height: 546px;
+  top: 18px;
 }
 .page-app .mobile_cont .mobile_text {
   margin: 0;
