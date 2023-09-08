@@ -177,12 +177,20 @@ main .container .page-pricing .subsc_parag {
   top: 16px;
 }
 .cont .logo_date {
-  top: 40px;
+  top: 32px;
   font-size: 12.8px;
 }
 .cont .to_album {
-  top: 88px;
+  top: 80px;
   font-size: 12.8px;
+}
+
+.em {
+  height: 186px;
+}
+
+.oz {
+  height: 186px;
 }
 
 .page-app {
