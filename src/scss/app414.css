@@ -161,11 +161,12 @@ main .container .page-pricing .subsc_parag {
   flex-direction: column;
   position: relative;
   top: 112px;
+  height: 485px;
 }
 
 .cont {
   width: 374px;
-  height: 186px;
+  height: 248px;
   background-size: cover;
 }
 .cont .album_name {
@@ -176,11 +177,11 @@ main .container .page-pricing .subsc_parag {
   top: 16px;
 }
 .cont .logo_date {
-  top: 32px;
+  top: 40px;
   font-size: 12.8px;
 }
 .cont .to_album {
-  top: 80px;
+  top: 88px;
   font-size: 12.8px;
 }
 

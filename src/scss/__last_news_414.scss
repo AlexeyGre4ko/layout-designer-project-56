@@ -12,11 +12,12 @@
     flex-direction: column;
     position: relative;
     top: 112px;
+    height: 485px;
 }
 
 .cont {
     width: 374px;
-    height: 186px;
+    height: 248px;
     background-size: cover;
 
     .album_name {
@@ -29,12 +30,12 @@
     }
 
     .logo_date {
-        top: 32px;
+        top: 40px;
         font-size: 12.8px;
     }
 
     .to_album {
-        top: 80px;
+        top: 88px;
         font-size: 12.8px;
     }
 }
