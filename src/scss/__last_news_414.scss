@@ -6,12 +6,23 @@
 .eminem {
     flex-direction: column;
     height: 492px;
+    .cont {
+        height: 256px;
+
+        .logo_date {
+            top: 40px;
+        }
+
+        .to_album {
+            top: 88px;
+        }
+    }
 }
 
 .page-news > .ozzy {
     flex-direction: column;
     position: relative;
-    top: 112px;
+    top: 147px;
     height: 485px;
 
 }

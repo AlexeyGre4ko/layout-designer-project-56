@@ -156,11 +156,20 @@ main .container .page-pricing .subsc_parag {
   flex-direction: column;
   height: 492px;
 }
+.eminem .cont {
+  height: 256px;
+}
+.eminem .cont .logo_date {
+  top: 40px;
+}
+.eminem .cont .to_album {
+  top: 88px;
+}
 
 .page-news > .ozzy {
   flex-direction: column;
   position: relative;
-  top: 112px;
+  top: 147px;
   height: 485px;
 }
 
