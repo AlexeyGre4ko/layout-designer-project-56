@@ -25,7 +25,7 @@
 
         .menu {
             @include flex_aling(column,start);
-            gap: 17px;
+            gap: 16px;
             height: 145px;
 
             .logo {
@@ -35,7 +35,7 @@
 
                 p {
                     height: 13px;
-                    margin: 4px 0 8px;
+                    margin: 3px 0 9px;
                 }
             }
 
