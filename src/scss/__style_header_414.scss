@@ -25,7 +25,7 @@
 
         .menu {
             @include flex_aling(column,start);
-            gap: 15px;
+            gap: 16px;
             height: 145px;
 
             .logo {
@@ -74,6 +74,7 @@
             form {
                 @include flex_aling(column,center);
                 top: 32px;
+                gap: 26px;
 
                 input {
                     width: 374px;
