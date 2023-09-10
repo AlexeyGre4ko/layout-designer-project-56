@@ -3,9 +3,17 @@
     padding: 100px 20px 0;
 }
 
-.eminem {
+.page-news > .eminem {
     flex-direction: column;
     height: 492px;
+    width: 374px;
+
+    .em {
+        height: 186px;
+        width: 376px;
+        background-size: cover;
+    }
+
     .cont {
         height: 256px;
 
@@ -22,8 +30,15 @@
 .page-news > .ozzy {
     flex-direction: column;
     position: relative;
-    top: 147px;
+    top: 112px;
     height: 485px;
+    width: 374px;
+
+    .oz {
+        height: 186px;
+        width: 376px;
+        background-size: cover;
+    }
 
 }
 
@@ -51,9 +66,4 @@
         font-size: 12.8px;
     }
 }
-.em {
-    height: 186px;
-}
-.oz {
-    height: 186px;
-}
+

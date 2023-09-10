@@ -152,25 +152,37 @@ main .container .page-pricing .subsc_parag {
   padding: 100px 20px 0;
 }
 
-.eminem {
+.page-news > .eminem {
   flex-direction: column;
   height: 492px;
+  width: 374px;
 }
-.eminem .cont {
+.page-news > .eminem .em {
+  height: 186px;
+  width: 376px;
+  background-size: cover;
+}
+.page-news > .eminem .cont {
   height: 256px;
 }
-.eminem .cont .logo_date {
+.page-news > .eminem .cont .logo_date {
   top: 40px;
 }
-.eminem .cont .to_album {
+.page-news > .eminem .cont .to_album {
   top: 88px;
 }
 
 .page-news > .ozzy {
   flex-direction: column;
   position: relative;
-  top: 147px;
+  top: 112px;
   height: 485px;
+  width: 374px;
+}
+.page-news > .ozzy .oz {
+  height: 186px;
+  width: 376px;
+  background-size: cover;
 }
 
 .cont {
@@ -192,14 +204,6 @@ main .container .page-pricing .subsc_parag {
 .cont .to_album {
   top: 80px;
   font-size: 12.8px;
-}
-
-.em {
-  height: 186px;
-}
-
-.oz {
-  height: 186px;
 }
 
 .page-app {
