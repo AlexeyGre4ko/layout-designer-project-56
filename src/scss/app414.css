@@ -80,6 +80,9 @@ h2 {
 .page-description_3 .container .menu nav ul li {
   height: 13px;
 }
+.page-description_3 .container .menu input {
+  height: 28px;
+}
 .page-description_3 .container .page-description_1 {
   margin-top: 78px;
   text-align: center;
