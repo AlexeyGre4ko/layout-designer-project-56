@@ -55,7 +55,7 @@ h2 {
 .page-description_3 .container .menu {
   flex-direction: column;
   align-items: start;
-  gap: 16px;
+  gap: 0;
   height: 145px;
 }
 .page-description_3 .container .menu .logo {
@@ -70,6 +70,7 @@ h2 {
 .page-description_3 .container .menu nav {
   position: relative;
   flex-grow: 0;
+  top: 17px;
 }
 .page-description_3 .container .menu nav ul {
   flex-direction: column;
@@ -82,6 +83,8 @@ h2 {
 }
 .page-description_3 .container .menu input {
   height: 30px;
+  position: relative;
+  top: 35px;
 }
 .page-description_3 .container .page-description_1 {
   margin-top: 75px;

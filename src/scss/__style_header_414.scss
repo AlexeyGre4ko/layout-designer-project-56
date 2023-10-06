@@ -25,7 +25,7 @@
 
         .menu {
             @include flex_aling(column,start);
-            gap: 16px;
+            gap: 0;
             height: 145px;
 
             .logo {
@@ -43,6 +43,7 @@
                 position: relative;
                 @extend %mar_pad;
                 flex-grow: 0;
+                top: 17px;
 
                 ul {
                     @include flex_aling(column,start);
@@ -59,6 +60,8 @@
             input {
                 @extend %input;
                 height: 30px;
+                position: relative;
+                top: 35px;
             }
         }
 
