@@ -44,7 +44,7 @@
                 position: relative;
                 @extend %mar_pad;
                 flex-grow: 0;
-                top: 16px;
+                top: 15px;
 
                 ul {
                     @include flex_aling(column,start);
