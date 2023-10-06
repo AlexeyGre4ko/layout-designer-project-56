@@ -105,6 +105,7 @@ h2 {
 .page-description_3 .container .page-description_1 form input {
   width: 374px;
   box-sizing: border-box;
+  border: 0;
 }
 .page-description_3 .container .page-description_1 form .submit {
   text-align: center;
