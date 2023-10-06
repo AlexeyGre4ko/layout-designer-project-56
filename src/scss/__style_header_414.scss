@@ -84,12 +84,12 @@
                 input {
                     width: 374px;
                     box-sizing: border-box;
-                    border: 0;
                 }
                 .submit {
                     @extend %input;
                     @extend %mar_pad;
                     text-align: center;
+                    border: 0;
                 }
             }
         }
