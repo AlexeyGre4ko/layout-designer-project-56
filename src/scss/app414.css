@@ -56,7 +56,7 @@ h2 {
   flex-direction: column;
   align-items: start;
   gap: 0;
-  height: 145px;
+  height: 150px;
 }
 .page-description_3 .container .menu .logo {
   width: 100%;
@@ -100,7 +100,7 @@ h2 {
   flex-direction: column;
   align-items: center;
   top: 32px;
-  gap: 25px;
+  gap: 24px;
 }
 .page-description_3 .container .page-description_1 form input {
   width: 374px;
