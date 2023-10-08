@@ -237,6 +237,7 @@ main .container .page-pricing .subsc_parag {
 .page-app .mobile_cont .download {
   position: relative;
   top: 31px;
+  border: 0;
 }
 .page-app .mobile_cont .iphone {
   width: 333px;
