@@ -33,6 +33,7 @@
                 height: 24px;
                 gap: 16px;
                 flex-grow: 0;
+                font-family: 'Roboto-Bold';
 
                 p {
                     height: 13px;
@@ -45,6 +46,7 @@
                 @extend %mar_pad;
                 flex-grow: 0;
                 top: 15px;
+                font-family: 'Roboto-Bold';
 
                 ul {
                     @include flex_aling(column,start);
@@ -74,6 +76,7 @@
 
             p {
                 top: 16px;
+                width: 370px;
             }
 
             form {
