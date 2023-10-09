@@ -70,7 +70,7 @@
         }
 
         .page-description_1 {
-            margin-top: 75px;
+            margin-top: 72px;
             text-align: center;
             height: 402px;
 
@@ -87,6 +87,7 @@
                 input {
                     width: 374px;
                     box-sizing: border-box;
+                    font-weight: bold;
                 }
                 .submit {
                     @extend %input;

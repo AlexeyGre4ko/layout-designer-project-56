@@ -1,13 +1,13 @@
 @font-face {
   font-family: Roboto;
   src: url("/src/fonts/Roboto-Regular.ttf");
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: Arial;
   src: url("/src/fonts/arialmt.ttf");
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
 }
 @font-face {
@@ -91,7 +91,7 @@ h2 {
   border: 0;
 }
 .page-description_3 .container .page-description_1 {
-  margin-top: 75px;
+  margin-top: 72px;
   text-align: center;
   height: 402px;
 }
@@ -108,6 +108,7 @@ h2 {
 .page-description_3 .container .page-description_1 form input {
   width: 374px;
   box-sizing: border-box;
+  font-weight: bold;
 }
 .page-description_3 .container .page-description_1 form .submit {
   text-align: center;
