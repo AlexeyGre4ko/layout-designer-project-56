@@ -229,7 +229,7 @@ main .container .page-pricing .subsc_parag {
   flex-direction: column-reverse;
   gap: 0;
   height: 546px;
-  top: 18px;
+  top: 48px;
 }
 .page-app .mobile_cont .mobile_text {
   margin: 16px 0;
@@ -239,11 +239,9 @@ main .container .page-pricing .subsc_parag {
 }
 .page-app .mobile_cont .mobile_text_2 {
   position: relative;
-  top: 16px;
 }
 .page-app .mobile_cont .download {
   position: relative;
-  top: 15px;
   border: 0;
 }
 .page-app .mobile_cont .iphone {
