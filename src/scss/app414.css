@@ -232,15 +232,18 @@ main .container .page-pricing .subsc_parag {
   top: 18px;
 }
 .page-app .mobile_cont .mobile_text {
-  margin: 0;
-  height: 184px;
+  margin: 16px 0;
+  height: 92px;
   width: 374px;
   position: relative;
-  top: 14px;
+}
+.page-app .mobile_cont .mobile_text_2 {
+  position: relative;
+  top: 16px;
 }
 .page-app .mobile_cont .download {
   position: relative;
-  top: 31px;
+  top: 15px;
   border: 0;
 }
 .page-app .mobile_cont .iphone {

@@ -8,15 +8,18 @@
         height: 546px;
         top: 18px;
         .mobile_text {
-            margin: 0;
-            height: 184px;
+            margin: 16px 0;
+            height: 92px;
             width: 374px;
             position: relative;
-            top: 14px;
+        }
+        .mobile_text_2 {
+            position: relative;
+            top: 16px;
         }
         .download {
             position: relative;
-            top: 31px;
+            top: 15px;
             border: 0;
         }
         .iphone {
