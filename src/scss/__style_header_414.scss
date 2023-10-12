@@ -17,6 +17,7 @@
     width: 374px;
     height: 625px;
     padding: 25px 20px 201px;
+    font-family: "Roboto";
 
     .container {
         width: 374px;
@@ -46,7 +47,7 @@
                 @extend %mar_pad;
                 flex-grow: 0;
                 top: 15px;
-                font-family: 'Roboto-Bold';
+                font-family: 'Roboto';
 
                 ul {
                     @include flex_aling(column,start);
@@ -88,6 +89,7 @@
                     width: 374px;
                     box-sizing: border-box;
                     font-weight: bold;
+                    font-family: "Roboto";
                 }
                 .submit {
                     @extend %input;
