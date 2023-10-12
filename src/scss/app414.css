@@ -235,8 +235,7 @@ main .container .page-pricing .subsc_parag {
   height: 92px;
   width: 360px;
   position: relative;
-  font-size: 15.8px;
-  letter-spacing: -0.3px;
+  font-family: "Roboto";
 }
 .page-app .mobile_cont .mobile_text_2 {
   position: relative;
