@@ -236,6 +236,7 @@ main .container .page-pricing .subsc_parag {
   width: 370px;
   position: relative;
   font-size: 16px;
+  letter-spacing: -0.3px;
 }
 .page-app .mobile_cont .mobile_text_2 {
   position: relative;
