@@ -227,7 +227,7 @@ main .container .page-pricing .subsc_parag {
   padding: 100px 20px 0;
 }
 .page-app h2 {
-  letter-spacing: -0.6px;
+  letter-spacing: -0.7px;
 }
 .page-app .mobile_cont {
   flex-direction: column-reverse;
@@ -237,21 +237,21 @@ main .container .page-pricing .subsc_parag {
 }
 .page-app .mobile_cont .text_mobile {
   position: relative;
-  top: 1px;
+  top: 2px;
 }
 .page-app .mobile_cont .text_mobile .mobile_text {
-  margin: 15px 0 20px;
+  margin: 14px 0 20px;
   height: 92px;
-  width: 395px;
+  width: 373px;
   position: relative;
   font-family: "Roboto";
-  letter-spacing: -0.3px;
+  letter-spacing: -0.4px;
 }
 .page-app .mobile_cont .text_mobile .mobile_text_2 {
   position: relative;
-  width: 384px;
+  width: 373px;
   margin-bottom: 18px;
-  letter-spacing: -0.3px;
+  letter-spacing: -0.4px;
 }
 .page-app .mobile_cont .text_mobile .download {
   position: relative;
