@@ -103,8 +103,8 @@ h2 {
 .page-description_3 .container .page-description_1 form {
   flex-direction: column;
   align-items: center;
-  top: 32px;
-  gap: 24px;
+  top: 33px;
+  gap: 25px;
 }
 .page-description_3 .container .page-description_1 form input {
   width: 374px;
