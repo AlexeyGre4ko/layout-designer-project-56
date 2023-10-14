@@ -2,14 +2,18 @@
     height: 622px;
     padding: 100px 20px 0;
 
+    h2 {
+        padding-left: 5px;
+    }
+
     .mobile_cont {
         flex-direction: column-reverse;
         gap: 0;
         height: 546px;
-        top: 48px;
+        top: 47px;
 
         .mobile_text {
-            margin: 14px 0 19px;
+            margin: 15px 0 20px;
             height: 92px;
             width: 390px;
             position: relative;

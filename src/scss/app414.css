@@ -226,14 +226,17 @@ main .container .page-pricing .subsc_parag {
   height: 622px;
   padding: 100px 20px 0;
 }
+.page-app h2 {
+  padding-left: 5px;
+}
 .page-app .mobile_cont {
   flex-direction: column-reverse;
   gap: 0;
   height: 546px;
-  top: 48px;
+  top: 47px;
 }
 .page-app .mobile_cont .mobile_text {
-  margin: 14px 0 19px;
+  margin: 15px 0 20px;
   height: 92px;
   width: 390px;
   position: relative;
