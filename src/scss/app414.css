@@ -230,10 +230,10 @@ main .container .page-pricing .subsc_parag {
   flex-direction: column-reverse;
   gap: 0;
   height: 546px;
-  top: 49px;
+  top: 48px;
 }
 .page-app .mobile_cont .mobile_text {
-  margin: 15px 0 18px;
+  margin: 14px 0 19px;
   height: 92px;
   width: 390px;
   position: relative;
