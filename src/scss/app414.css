@@ -108,8 +108,8 @@ h2 {
 }
 .page-description_3 .container .page-description_1 form input {
   width: 374px;
-  box-sizing: border-box;
   font-family: "Roboto", "sans-serif";
+  padding: 0 0 0 20px;
 }
 .page-description_3 .container .page-description_1 form .submit {
   text-align: center;
