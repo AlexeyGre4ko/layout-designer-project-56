@@ -235,19 +235,23 @@ main .container .page-pricing .subsc_parag {
   height: 546px;
   top: 48px;
 }
-.page-app .mobile_cont .mobile_text {
+.page-app .mobile_cont .text_mobile {
+  position: relative;
+  top: 2px;
+}
+.page-app .mobile_cont .text_mobile .mobile_text {
   margin: 15px 0 20px;
   height: 92px;
   width: 390px;
   position: relative;
   font-family: "Roboto";
 }
-.page-app .mobile_cont .mobile_text_2 {
+.page-app .mobile_cont .text_mobile .mobile_text_2 {
   position: relative;
   width: 384px;
   margin-bottom: 17px;
 }
-.page-app .mobile_cont .download {
+.page-app .mobile_cont .text_mobile .download {
   position: relative;
   border: 0;
 }

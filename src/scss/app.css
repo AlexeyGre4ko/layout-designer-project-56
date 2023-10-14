@@ -366,21 +366,17 @@ h2 {
   display: flex;
   gap: 144px;
 }
-.page-app .mobile_cont .text_mobile {
-  position: relative;
-  top: 2px;
-}
-.page-app .mobile_cont .text_mobile .mobile_text {
+.page-app .mobile_cont .mobile_text {
   width: 600px;
   height: 56px;
   margin: 16px 0 8px;
 }
-.page-app .mobile_cont .text_mobile .mobile_text_2 {
+.page-app .mobile_cont .mobile_text_2 {
   position: relative;
   width: 600px;
   margin: 8px 0 16px;
 }
-.page-app .mobile_cont .text_mobile .download {
+.page-app .mobile_cont .download {
   width: 131px;
   height: 53px;
   background-color: #95390C;

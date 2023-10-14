@@ -22,31 +22,27 @@
         @include mobile_position(relative,48px,flex);
         gap: 144px;
 
-        .text_mobile {
-            position: relative;
-            top: 2px;
-
-            .mobile_text {
-                width: 600px;
-                height: 56px;
-                margin: 16px 0 8px;
-            }
-            .mobile_text_2 {
-                position: relative;
-                width: 600px;
-                margin: 8px 0 16px;
-            }
-
-            .download {
-                width: 131px;
-                height: 53px;
-                background-color: $bg-button;
-                color: $font-color;
-                border-radius: 32px;
-                font-size: 12.8px;
-                font-family: 'Roboto';
-            }
+        .mobile_text {
+            width: 600px;
+            height: 56px;
+            margin: 16px 0 8px;
         }
+        .mobile_text_2 {
+            position: relative;
+            width: 600px;
+            margin: 8px 0 16px;
+        }
+
+        .download {
+            width: 131px;
+            height: 53px;
+            background-color: $bg-button;
+            color: $font-color;
+            border-radius: 32px;
+            font-size: 12.8px;
+            font-family: 'Roboto';
+        }
+        
     }
 }
 
