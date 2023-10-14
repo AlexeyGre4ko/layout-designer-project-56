@@ -227,7 +227,7 @@ main .container .page-pricing .subsc_parag {
   padding: 100px 20px 0;
 }
 .page-app h2 {
-  padding-left: 7px;
+  padding-left: 5px;
   letter-spacing: -0.8px;
 }
 .page-app .mobile_cont {
@@ -238,7 +238,7 @@ main .container .page-pricing .subsc_parag {
 }
 .page-app .mobile_cont .text_mobile {
   position: relative;
-  top: 2px;
+  top: 1px;
 }
 .page-app .mobile_cont .text_mobile .mobile_text {
   margin: 15px 0 20px;
@@ -250,7 +250,7 @@ main .container .page-pricing .subsc_parag {
 .page-app .mobile_cont .text_mobile .mobile_text_2 {
   position: relative;
   width: 384px;
-  margin-bottom: 17px;
+  margin-bottom: 18px;
 }
 .page-app .mobile_cont .text_mobile .download {
   position: relative;
