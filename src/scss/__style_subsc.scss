@@ -26,6 +26,7 @@
             @include subscr_pos(relative,0px);
             color: $font-color;
             margin: 0;
+            letter-spacing: -0.7px;
         }
 
         .forms {
@@ -115,6 +116,7 @@
             color: $font-color;
             margin: 0;
             padding-left: 22px;
+            letter-spacing: -0.3px;
         }
     }
 }

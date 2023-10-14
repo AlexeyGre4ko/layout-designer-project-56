@@ -176,6 +176,7 @@ h2 {
   top: 0px;
   color: #ffffff;
   margin: 0;
+  letter-spacing: -0.7px;
 }
 .container .page-pricing .forms {
   position: relative;
@@ -257,6 +258,7 @@ h2 {
   color: #ffffff;
   margin: 0;
   padding-left: 22px;
+  letter-spacing: -0.3px;
 }
 
 .page-news {
