@@ -47,7 +47,7 @@
 
             input {
                 @include w_h(248px,25px,$bg-search,50px,5px 180px 5px 10px,$font-color-dark,13.3px,uppercase);
-                font-family: 'Arial', sans-serif;
+                font-family: Arial, sans-serif;
             }
         }
 
@@ -62,12 +62,12 @@
 
             h1 {
                 margin: 0;
-                font-family: 'Roboto-Bold', sans-serif;
+                font-family: Roboto-Bold, sans-serif;
             }
 
             h2 {
                 margin: 0;
-                font-family: 'Roboto-Bold', sans-serif;
+                font-family: Roboto-Bold, sans-serif;
             }
 
             p {
@@ -92,7 +92,7 @@
                     box-sizing: border-box;
                     font-size: 12.8px;
                     color: $font-color;
-                    font-family: 'Roboto', sans-serif;
+                    font-family: Roboto, sans-serif;
                     text-transform: uppercase;
                     display: flex;
                     align-items: center;

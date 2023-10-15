@@ -515,7 +515,7 @@ h2 {
   color: #757575;
   font-size: 13.3px;
   text-transform: uppercase;
-  font-family: "Arial", sans-serif;
+  font-family: Arial, sans-serif;
 }
 .page-description .container .page-description_2 {
   margin-top: 200px;
@@ -530,11 +530,11 @@ h2 {
 }
 .page-description .container .page-description_2 h1 {
   margin: 0;
-  font-family: "Roboto-Bold", sans-serif;
+  font-family: Roboto-Bold, sans-serif;
 }
 .page-description .container .page-description_2 h2 {
   margin: 0;
-  font-family: "Roboto-Bold", sans-serif;
+  font-family: Roboto-Bold, sans-serif;
 }
 .page-description .container .page-description_2 p {
   margin: 0;
@@ -558,7 +558,7 @@ h2 {
   box-sizing: border-box;
   font-size: 12.8px;
   color: #ffffff;
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto, sans-serif;
   text-transform: uppercase;
   display: flex;
   align-items: center;
