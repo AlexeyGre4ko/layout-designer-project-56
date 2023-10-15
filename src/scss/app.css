@@ -83,11 +83,11 @@ body {
 }
 .page-description_3 .container .page-description_1 h1 {
   margin: 0;
-  font-family: "Roboto-Bold";
+  font-family: Roboto-Bold, sans-serif;
 }
 .page-description_3 .container .page-description_1 h2 {
   margin: 0;
-  font-family: "Roboto-Bold";
+  font-family: Roboto-Bold, sans-serif;
 }
 .page-description_3 .container .page-description_1 p {
   margin: 0;
@@ -114,7 +114,7 @@ body {
 }
 .page-description_3 .container .page-description_1 form input::placeholder {
   color: #ffffff;
-  font-family: "Roboto-Bold";
+  font-family: Roboto-Bold, sans-serif;
   font-size: 14px;
 }
 .page-description_3 .container .page-description_1 form .submit {
@@ -592,7 +592,7 @@ h2 {
 }
 .page-popular-track h2 {
   font-size: 38px;
-  font-family: Roboto-Bold;
+  font-family: Roboto-Bold, sans-serif;
   margin: 0;
 }
 .page-popular-track .tracks {
@@ -629,7 +629,7 @@ h2 {
   margin: 0;
   text-transform: uppercase;
   font-size: 12.8px;
-  font-family: Roboto-Bold;
+  font-family: Roboto-Bold, sans-serif;
 }
 .page-popular-track .tracks .left .track div .perfomer {
   margin: 0;
