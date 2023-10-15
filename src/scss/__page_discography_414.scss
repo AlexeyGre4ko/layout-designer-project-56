@@ -27,25 +27,31 @@
                     height: 137px;
                     width: 137px;
                 }
+
                 .name {
                     font-size: 18px;
                     width: 130px;
                 }
+
                 .name_1 {
                     width: 145px;
                 }
+
                 .year {
                     font-size: 16px;
                 }
             }
         }
+
         .medium {
             @extend .high;
         }
     }
+
     .low {
         top: 75px;
         height: 233px;
+
         .album {
             height: 206px;
             width: 137px;
@@ -54,13 +60,16 @@
                 height: 137px;
                 width: 137px;
             }
+
             .name {
                 font-size: 18px;
                 width: 130px;
             }
+
             .name_1 {
                 width: 145px;
             }
+            
             .year {
                 font-size: 16px;
             }

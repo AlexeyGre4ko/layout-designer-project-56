@@ -356,7 +356,7 @@ h2 {
 }
 .page-app h2 {
   position: relative;
-  top: 0px;
+  top: 0;
   display: block;
   text-align: center;
   color: #ffffff;
@@ -385,7 +385,7 @@ h2 {
   color: #ffffff;
   border-radius: 32px;
   font-size: 12.8px;
-  font-family: "Roboto";
+  font-family: Roboto, sans-serif;
 }
 
 .footer .container_footer .info .about_us .content, .footer .container_footer .info .about_us {
@@ -673,7 +673,7 @@ h2 {
 }
 .page-discography .high_1 .high .album .name, .page-discography .high_1 .medium .album .name {
   margin: 18px 0 0;
-  font-family: Roboto-Bold;
+  font-family: Roboto-Bold, sans-serif;
   line-height: 27px;
   font-size: 18px;
 }
@@ -693,7 +693,7 @@ h2 {
 }
 .page-discography .low .album .name {
   margin: 18px 0 0;
-  font-family: Roboto-Bold;
+  font-family: Roboto-Bold, sans-serif;
   line-height: 27px;
   font-size: 18px;
 }

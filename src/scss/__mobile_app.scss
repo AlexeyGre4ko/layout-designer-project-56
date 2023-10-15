@@ -1,25 +1,25 @@
-@mixin mobile_position($ma,$mb,$mc: block){
+@mixin mobile-position($ma,$mb,$mc: block){
     position: $ma;
     top: $mb;
     display: $mc;
 }
 
 .page-app {
-    @include mobile_position(relative,0,flex);
+    @include mobile-position(relative,0,flex);
     flex-direction: column;
     height: 383px;
     padding: 100px 20px 0;
     margin-bottom: 100px;
 
     h2 {
-        @include mobile_position(relative,0px);
+        @include mobile-position(relative,0);
         text-align: center;
         color: $font-color;
         margin: 0;
     }
 
     .mobile_cont {
-        @include mobile_position(relative,48px,flex);
+        @include mobile-position(relative,48px,flex);
         gap: 144px;
 
         .mobile_text {
@@ -27,6 +27,7 @@
             height: 56px;
             margin: 16px 0 8px;
         }
+
         .mobile_text_2 {
             position: relative;
             width: 600px;
@@ -40,9 +41,8 @@
             color: $font-color;
             border-radius: 32px;
             font-size: 12.8px;
-            font-family: 'Roboto';
+            font-family: Roboto, sans-serif;
         }
-        
     }
 }
 

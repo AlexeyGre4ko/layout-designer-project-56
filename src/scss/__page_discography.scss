@@ -28,10 +28,11 @@
 
                     .name {
                         margin: 18px 0 0;
-                        font-family: Roboto-Bold;
+                        font-family: Roboto-Bold, sans-serif;
                         line-height: 27px;
                         font-size: 18px;
                     }
+
                     .year {
                         margin: 0;
                         line-height: 24px;
@@ -39,10 +40,12 @@
                     }
                 }
             }
+
             .medium {
                 @extend .high;
             }
         }
+
         .low {
             display: flex;
             gap: 50px;
@@ -54,10 +57,11 @@
 
                 .name {
                     margin: 18px 0 0;
-                    font-family: Roboto-Bold;
+                    font-family: Roboto-Bold, sans-serif;
                     line-height: 27px;
                     font-size: 18px;
                 }
+                
                 .year {
                     margin: 0;
                     line-height: 24px;
