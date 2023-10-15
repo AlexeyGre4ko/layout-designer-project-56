@@ -148,11 +148,13 @@ main .container .page-pricing .forms .form_size .form_type {
   text-align: center;
 }
 main .container .page-pricing .forms .form_size .price {
-  top: 184px;
+  top: 183px;
+  left: 92px;
+  gap: 17px;
 }
 main .container .page-pricing .forms .form_size button {
   width: 326px;
-  top: 226px;
+  top: 225px;
 }
 main .container .page-pricing .forms .form_size .form_parag {
   top: 289px;
@@ -163,7 +165,7 @@ main .container .page-pricing .forms .free {
 }
 main .container .page-pricing .subsc_parag {
   height: 120px;
-  letter-spacing: -0.3px;
+  letter-spacing: -0.2px;
   top: 85px;
 }
 
