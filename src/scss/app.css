@@ -131,7 +131,7 @@ body {
 }
 
 body {
-  font-family: "Roboto";
+  font-family: Roboto, sans-serif;
   line-height: 1.5;
   color: #cacaca;
   background-color: #08020d;
@@ -272,7 +272,7 @@ h2 {
 }
 .page-news h2 {
   position: relative;
-  top: 0px;
+  top: 0;
   color: #ffffff;
   margin: 0;
 }
