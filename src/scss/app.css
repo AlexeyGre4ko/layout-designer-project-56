@@ -415,7 +415,7 @@ h2 {
 .footer .container_footer .info .about_us > p {
   font-size: 18px;
   color: #ffffff;
-  font-family: "Roboto-Bold";
+  font-family: Roboto-Bold;
   text-transform: uppercase;
   margin: 0;
 }
