@@ -39,7 +39,7 @@
 
                 >p {
                     @include font-size-color(18px,$font-color);
-                    font-family: Roboto-Bold;
+                    font-family: Roboto-Bold, sans-serif;
                     text-transform: uppercase;
                     margin: 0;
                 }
@@ -48,7 +48,7 @@
                     @extend %flex-column;
 
                     p {
-                        @include font-size-color();
+                        @include font-size-color(16px,$font-footer);
                         margin: 0;
                     }
                 }
@@ -64,6 +64,7 @@
             }
         }
     }
+
     .container_footer-1 {
         max-width: 1200px;
         padding: 63px 20px 0;
@@ -73,11 +74,11 @@
         .shop {
             @include footer(relative,50px,24px);
             @include flex-gap(flex,16px);
-            @include font-size-color();
+            @include font-size-color(16px,$font-footer);
             align-items: center;
 
             p {
-                @include font-size-color();
+                @include font-size-color(16px,$font-footer);
                 margin: 0;
             }
         }
