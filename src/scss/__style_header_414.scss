@@ -46,6 +46,7 @@
 
             nav {
                 position: relative;
+
                 @extend %mar-pad;
                 flex-grow: 0;
                 top: 15px;
@@ -89,7 +90,7 @@
 
                 input {
                     width: 374px;
-                    font-family: Roboto sans-serif;
+                    font-family: Roboto, sans-serif;
                     padding: 0 0 0 20px;
                 }
 
