@@ -42,7 +42,7 @@
             }
 
             .medium {
-                @extend .high;
+                @extend %.high;
             }
         }
 
@@ -61,7 +61,7 @@
                     line-height: 27px;
                     font-size: 18px;
                 }
-                
+
                 .year {
                     margin: 0;
                     line-height: 24px;
