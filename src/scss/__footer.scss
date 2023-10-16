@@ -23,6 +23,25 @@
     @include footer(relative,0,387px);
     background: linear-gradient(90deg, $bg-grad1 32.83%, $bg-grad2 81.56%);
 
+    .container_footer-1 {
+        max-width: 1200px;
+        padding: 63px 20px 0;
+        margin: 0 auto;
+        position: relative;
+
+        .shop {
+            @include footer(relative,50px,24px);
+            @include flex-gap(flex,16px);
+            @include font-size-color(16px,$font-footer);
+            align-items: center;
+
+            p {
+                @include font-size-color(16px,$font-footer);
+                margin: 0;
+            }
+        }
+    }
+
     .container_footer {
         max-width: 1200px;
         padding: 63px 20px 0;
@@ -65,28 +84,8 @@
         }
     }
 
-    .container_footer-1 {
-        max-width: 1200px;
-        padding: 63px 20px 0;
-        margin: 0 auto;
-        position: relative;
-
-        .shop {
-            @include footer(relative,50px,24px);
-            @include flex-gap(flex,16px);
-            @include font-size-color(16px,$font-footer);
-            align-items: center;
-
-            p {
-                @include font-size-color(16px,$font-footer);
-                margin: 0;
-            }
-        }
-    }
-
     .white_line {
         @include footer(relative,72px,2px);
         background-color: $font-nav;
     }
-
 }
