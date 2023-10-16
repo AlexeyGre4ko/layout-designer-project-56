@@ -17,6 +17,7 @@
 body {
     margin: 0;
 }
+
     .page-description_3 {
         background-image: url("../images/banner.png");
         background-position: center;
@@ -35,7 +36,7 @@ body {
                 padding: 0;
                 font-size: 11px;
                 text-transform: uppercase;
-                font-family: 'Roboto';
+                font-family: Roboto, sans-serif;
 
                 .logo {
                     @include display-gap(flex,15%);
@@ -54,10 +55,10 @@ body {
                         list-style: none;
                     }
                 }
-                
+
                 input {
                     @include w_h(248px,25px,$bg-search,50px,5px 180px 5px 10px,$font-color-dark,13.3px,uppercase);
-                    font-family: 'Arial';
+                    font-family: Arial, sans-serif;
                 }
             }
 

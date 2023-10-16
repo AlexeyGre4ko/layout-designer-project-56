@@ -1,14 +1,16 @@
-%mar_pad {
+%mar-pad {
     padding: 0;
     margin: 0;
 }
+
 %input {
     width: 374px;
     box-sizing: border-box;
     padding-left: 10px;
     padding-right: 0;
 }
-@mixin flex_aling($fa,$fb){
+
+@mixin flex-aling($fa,$fb){
     flex-direction: $fa;
     align-items: $fb;
 }
@@ -17,7 +19,7 @@
     width: 374px;
     height: 625px;
     padding: 25px 20px 201px;
-    font-family: "Roboto", 'sans-serif';
+    font-family: Roboto, sans-serif;
 
     .container {
         width: 374px;
@@ -25,7 +27,7 @@
         height: 625px;
 
         .menu {
-            @include flex_aling(column,start);
+            @include flex-aling(column,start);
             gap: 0;
             height: 150px;
 
@@ -34,7 +36,7 @@
                 height: 24px;
                 gap: 16px;
                 flex-grow: 0;
-                font-family: 'Roboto-Bold', 'sans-serif';
+                font-family: Roboto-Bold, sans-serif;
 
                 p {
                     height: 13px;
@@ -47,11 +49,11 @@
                 @extend %mar_pad;
                 flex-grow: 0;
                 top: 15px;
-                font-family: 'Roboto', 'sans-serif';
+                font-family: Roboto, sans-serif;
 
                 ul {
-                    @include flex_aling(column,start);
-                    @extend %mar_pad;
+                    @include flex-aling(column,start);
+                    @extend %mar-pad;
                     height: 61px;
                     gap: 3px;
 
@@ -81,18 +83,19 @@
             }
 
             form {
-                @include flex_aling(column,center);
+                @include flex-aling(column,center);
                 top: 33px;
                 gap: 24px;
 
                 input {
                     width: 374px;
-                    font-family: "Roboto", 'sans-serif';
+                    font-family: Roboto sans-serif;
                     padding: 0 0 0 20px;
                 }
+
                 .submit {
                     @extend %input;
-                    @extend %mar_pad;
+                    @extend %mar-pad;
                     text-align: center;
                     border: 0;
                 }
