@@ -26,36 +26,6 @@
         margin: 0;
         height: 625px;
 
-        .page-description_1 {
-            margin-top: 72px;
-            text-align: center;
-            height: 402px;
-
-            p {
-                top: 16px;
-                width: 374px;
-            }
-
-            form {
-                @include flex-aling(column,center);
-                top: 33px;
-                gap: 24px;
-
-                input {
-                    width: 374px;
-                    font-family: Roboto, sans-serif;
-                    padding: 0 0 0 20px;
-                }
-
-                .submit {
-                    @extend %input;
-                    @extend %mar-pad;
-                    text-align: center;
-                    border: 0;
-                }
-            }
-        }
-
         .menu {
             @include flex-aling(column,start);
             gap: 0;
@@ -100,6 +70,36 @@
                 position: relative;
                 top: 36px;
                 border: 0;
+            }
+        }
+
+        .page-description_1 {
+            margin-top: 72px;
+            text-align: center;
+            height: 402px;
+
+            p {
+                top: 16px;
+                width: 374px;
+            }
+
+            form {
+                @include flex-aling(column,center);
+                top: 33px;
+                gap: 24px;
+
+                input {
+                    width: 374px;
+                    font-family: Roboto, sans-serif;
+                    padding: 0 0 0 20px;
+                }
+
+                .submit {
+                    @extend %input;
+                    @extend %mar-pad;
+                    text-align: center;
+                    border: 0;
+                }
             }
         }
     }
