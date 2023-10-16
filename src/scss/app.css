@@ -47,7 +47,7 @@ body {
   flex-grow: 0.2;
   width: 25px;
   align-items: center;
-  color: #ffffff;
+  color: #fff;
 }
 .page-description_3 .container .menu nav {
   flex-grow: 0.9;
@@ -71,7 +71,7 @@ body {
 }
 .page-description_3 .container .page-description_1 {
   margin-top: 150px;
-  color: #ffffff;
+  color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -113,7 +113,7 @@ body {
   background: transparent;
 }
 .page-description_3 .container .page-description_1 form input::placeholder {
-  color: #ffffff;
+  color: #fff;
   font-family: Roboto-Bold, sans-serif;
   font-size: 14px;
 }
@@ -123,7 +123,7 @@ body {
   background-color: #34c176;
   border-radius: 5px;
   padding: 21px 220px;
-  color: #ffffff;
+  color: #fff;
   font-size: 13px;
   text-transform: uppercase;
   box-sizing: border-box;
@@ -154,7 +154,7 @@ h2 {
 .container .form_size .price .value_2_3, .container .form_size .price .value_1 {
   height: 64px;
   font-size: 64px;
-  color: #ffffff;
+  color: #fff;
   display: flex;
   align-items: center;
   justify-content: end;
@@ -173,8 +173,8 @@ h2 {
 }
 .container .page-pricing h2 {
   position: relative;
-  top: 0px;
-  color: #ffffff;
+  top: 0;
+  color: #fff;
   margin: 0;
   letter-spacing: -0.7px;
 }
@@ -199,7 +199,7 @@ h2 {
   position: relative;
   top: 88px;
   text-align: center;
-  color: #ffffff;
+  color: #fff;
   margin: 0;
   font-size: 16px;
   height: 64px;
@@ -214,7 +214,7 @@ h2 {
 .container .form_size .form_type {
   font-size: 24px;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #fff;
   text-align: center;
 }
 .container .form_size .price {
@@ -233,7 +233,7 @@ h2 {
 }
 .container .form_size .price .currency {
   font-size: 32px;
-  color: #ffffff;
+  color: #fff;
   text-transform: uppercase;
 }
 .container .form_size button {
@@ -243,8 +243,8 @@ h2 {
   width: 318px;
   height: 66px;
   background-color: transparent;
-  border: 1px solid #ffffff;
-  color: #ffffff;
+  border: 1px solid #fff;
+  color: #fff;
   text-transform: uppercase;
   font-size: 16px;
   border-radius: 5px;
@@ -256,7 +256,7 @@ h2 {
   width: 319px;
   text-align: center;
   font-size: 12.8px;
-  color: #ffffff;
+  color: #fff;
   margin: 0;
   padding-left: 22px;
 }
@@ -273,7 +273,7 @@ h2 {
 .page-news h2 {
   position: relative;
   top: 0;
-  color: #ffffff;
+  color: #fff;
   margin: 0;
 }
 .page-news .eminem {
@@ -306,7 +306,7 @@ h2 {
 }
 .cont .album_name {
   font-size: 30px;
-  color: #ffffff;
+  color: #fff;
   margin: 0;
 }
 .cont .album_discr {
@@ -359,7 +359,7 @@ h2 {
   top: 0;
   display: block;
   text-align: center;
-  color: #ffffff;
+  color: #fff;
   margin: 0;
 }
 .page-app .mobile_cont {
@@ -382,7 +382,7 @@ h2 {
   width: 131px;
   height: 53px;
   background-color: #95390C;
-  color: #ffffff;
+  color: #fff;
   border-radius: 32px;
   font-size: 12.8px;
   font-family: Roboto, sans-serif;
@@ -414,7 +414,7 @@ h2 {
 }
 .footer .container_footer .info .about_us > p {
   font-size: 18px;
-  color: #ffffff;
+  color: #fff;
   font-family: Roboto-Bold, sans-serif;
   text-transform: uppercase;
   margin: 0;
@@ -495,7 +495,7 @@ h2 {
   flex-grow: 0.2;
   width: 25px;
   align-items: center;
-  color: #ffffff;
+  color: #fff;
 }
 .page-description .container .menu nav {
   flex-grow: 0.9;
@@ -519,7 +519,7 @@ h2 {
 }
 .page-description .container .page-description_2 {
   margin-top: 200px;
-  color: #ffffff;
+  color: #fff;
   display: flex;
   flex-direction: column;
 }
@@ -557,7 +557,7 @@ h2 {
   border-radius: 5px;
   box-sizing: border-box;
   font-size: 12.8px;
-  color: #ffffff;
+  color: #fff;
   font-family: Roboto, sans-serif;
   text-transform: uppercase;
   display: flex;
@@ -578,7 +578,7 @@ h2 {
 }
 
 .page-popular-track {
-  color: #ffffff;
+  color: #fff;
   margin: 0 auto;
   padding: 100px 20px 0;
   display: flex;
@@ -643,7 +643,7 @@ h2 {
 }
 
 .page-discography {
-  color: #ffffff;
+  color: #fff;
   margin: 0 auto;
   padding: 100px 20px 0;
   display: flex;
@@ -704,7 +704,7 @@ h2 {
 }
 
 .page-similar {
-  color: #ffffff;
+  color: #fff;
   margin: 0 auto;
   padding: 100px 20px 0;
   display: flex;

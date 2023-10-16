@@ -46,7 +46,7 @@
 
             nav {
                 position: relative;
-                @extend %mar_pad;
+                @extend %mar-pad;
                 flex-grow: 0;
                 top: 15px;
                 font-family: Roboto, sans-serif;

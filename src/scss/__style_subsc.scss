@@ -6,7 +6,8 @@
     align-items: center;
     justify-content: end;
 }
-@mixin subscr_pos($sa,$sb){
+
+@mixin subscr-pos($sa,$sb){
     position: $sa;
     top: $sb;
 }
@@ -23,14 +24,14 @@
         padding: 100px 20px 0;
 
         h2 {
-            @include subscr_pos(relative,0px);
+            @include subscr-pos(relative,0);
             color: $font-color;
             margin: 0;
             letter-spacing: -0.7px;
         }
 
         .forms {
-            @include subscr_pos(relative,45px);
+            @include subscr-pos(relative,45px);
             display: flex;
             gap: 50px;
             width: 100%;
@@ -39,16 +40,18 @@
             .free {
                 background-image: url("../images/subscribe_1.png");
             }
+
             .standart {
                 background-image: url("../images/subscribe_2.png");
             }
+            
             .premium {
                 background-image: url("../images/subscribe_3.png");
             }
         }
 
         .subsc_parag {
-            @include subscr_pos(relative,88px);
+            @include subscr-pos(relative,88px);
             text-align: center;
             color: $font-color;
             margin: 0;
@@ -72,7 +75,7 @@
         }
 
         .price {
-            @include subscr_pos(relative,176px);
+            @include subscr-pos(relative,176px);
             left: 86px;
             display: flex;
             gap: 16px;
@@ -96,7 +99,7 @@
         }
 
         button {
-            @include subscr_pos(relative,216px);
+            @include subscr-pos(relative,216px);
             left: 24px;
             width: 318px;
             height: 66px;
@@ -110,14 +113,13 @@
         }
 
         .form_parag {
-            @include subscr_pos(relative,280px);
+            @include subscr-pos(relative,280px);
             width: 319px;
             text-align: center;
             font-size: 12.8px;
             color: $font-color;
             margin: 0;
             padding-left: 22px;
-
         }
     }
 }
