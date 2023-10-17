@@ -25,7 +25,8 @@
         width: 374px;
         margin: 0;
         height: 625px;
-
+    }
+}
         .menu {
             @include flex-aling(column,start);
             gap: 0;
@@ -102,5 +103,3 @@
                 }
             }
         }
-    }
-}
