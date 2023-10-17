@@ -48,16 +48,15 @@
             font-family: Roboto, sans-serif;
             padding: 0 0 0 20px;
         }
-
-        .submit {
-            @extend %input;
-            @extend %mar-pad;
-            text-align: center;
-            border: 0;
-        }
     }
 }
 
+.submit {
+    @extend %input;
+    @extend %mar-pad;
+    text-align: center;
+    border: 0;
+}
         .menu {
             @include flex-aling(column,start);
             gap: 0;
