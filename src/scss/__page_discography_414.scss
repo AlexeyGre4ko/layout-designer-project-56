@@ -52,16 +52,16 @@
         top: 75px;
         height: 233px;
 
-        .album {
+        .albums {
             height: 206px;
             width: 137px;
 
-            img {
+            .imgs {
                 height: 137px;
                 width: 137px;
             }
 
-            .name {
+            .names {
                 font-size: 18px;
                 width: 130px;
             }
@@ -70,7 +70,7 @@
                 width: 145px;
             }
 
-            .year {
+            .years {
                 font-size: 16px;
             }
         }
