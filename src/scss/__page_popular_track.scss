@@ -1,5 +1,5 @@
 .page-popular-track {
-    @media only screen and (min-width: 1240px) {
+    @media only screen and (1240px <= width) {
         max-width: 1240px;
         }
         color: $font-color;
@@ -52,7 +52,7 @@
                             font-size: 12.8px;
                             font-family: Roboto-Bold, sans-serif;
                         }
-                        
+
                         .perfomer {
                             margin: 0;
                             font-size: 12.8px;

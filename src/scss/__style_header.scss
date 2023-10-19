@@ -63,7 +63,7 @@ body {
             }
 
             .page-description_1 {
-                @media only screen and (min-width: 1240px) {
+                @media only screen and (1240px <= width) {
                     max-width: 1200px;
                 }
                 margin-top: 150px;
