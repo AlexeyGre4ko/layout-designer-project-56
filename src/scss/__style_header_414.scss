@@ -76,14 +76,6 @@
                     }
                 }
             }
-
-            input {
-                @extend %input;
-                height: 30px;
-                position: relative;
-                top: 36px;
-                border: 0;
-            }
         }
 
         .logo {
@@ -102,4 +94,12 @@
         .p_description {
             top: 16px;
             width: 374px;
+        }
+
+        .type_search {
+            @extend %input;
+            height: 30px;
+            position: relative;
+            top: 36px;
+            border: 0;
         }
