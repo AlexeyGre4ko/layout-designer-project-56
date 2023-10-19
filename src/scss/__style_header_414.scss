@@ -33,11 +33,6 @@
     text-align: center;
     height: 402px;
 
-    p {
-        top: 16px;
-        width: 374px;
-    }
-
     form {
         @include flex-aling(column,center);
         top: 33px;
@@ -102,4 +97,9 @@
                 height: 13px;
                 margin: 3px 0 9px;
             }
+        }
+
+        .p_description {
+            top: 16px;
+            width: 374px;
         }
