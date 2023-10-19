@@ -52,7 +52,7 @@
         }
 
         .page-description_2 {
-            @media (min-width: 1240px) {
+            @media (1240px <= width) {
             max-width: 1200px;
             }
             margin-top: 200px;
