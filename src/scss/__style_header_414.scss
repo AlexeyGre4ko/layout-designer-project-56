@@ -52,6 +52,7 @@
     text-align: center;
     border: 0;
 }
+
         .menu {
             @include flex-aling(column,start);
             gap: 0;
