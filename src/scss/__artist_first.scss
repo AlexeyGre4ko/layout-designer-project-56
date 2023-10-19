@@ -52,7 +52,7 @@
         }
 
         .page-description_2 {
-            @media only screen and (min-width: 1240px) {
+            @media (min-width: 1240px) {
             max-width: 1200px;
             }
             margin-top: 200px;
